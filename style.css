@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: #108cc6;
+    float: left;
+}
+.contatos{
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+}
+.cont{
+    width: 33.333%;
+    height: 35px;
+    text-align: center;
+    padding-top: 1%;
+    box-sizing: border-box;
+    float: left;
+}
+.cont p{
+    color: aliceblue;
+}
+nav{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: white;
+}
+.navegacao{
+    width: 90%;
+    margin: auto;
+
+}
+.logo{
+    width: 4%;
+    height: auto;
+    overflow: hidden;
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    width: 15%;
+    height: auto;
+    overflow: hidden;
+    font-size: medium;
+    text-align: center;
+    float: right;
+    padding: 2%;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+section img{
+    width: 100%;
+}
+article{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 5% 10%;
+    box-sizing: border-box;
+}
+.subarticle1{
+    width: 40%;
+    height: auto;
+    overflow: hidden;
+    padding: 5%;
+    box-sizing: border-box;
+    float: left;
+}
+.subarticle2{
+    width: 40%;
+    height: auto;
+    overflow: hidden;
+    float: left;
+}
+.titulo{
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+    font-size: x-large;
+    color: #108cc6;
+    margin-bottom: 5%;
+}
+.textinho{
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+    font-size: larger;
+    margin-bottom: 5%;
+}
+.imagemarticle{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    float: right;
+}
+article img{
+    width: 100%;
+}
+button{
+    width: 20%;
+    height: auto;
+    overflow: hidden;
+    padding: 1%;
+    background-color: #108cc6;
+}
+@media screen and (max-width: 600px){ 
+    .cont, .navegacao, .subarticle1, .subarticle2{
+        width: 100%;
+        text-align: center;
+    }
+    .menu{
+        width: 70%;
+    }
+    .logo{
+        width: 30%;
+        margin-top: 5%;
+    }
+    section img{
+        content: url(_imagens/fotofundomenor.jpeg)
+    }
+    .imagemarticle{
+        margin: 0;
+        padding: 0;
+    }
+}
+
+    
+  

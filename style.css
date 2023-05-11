@@ -35,7 +35,6 @@ nav{
 .navegacao{
     width: 90%;
     margin: auto;
-
 }
 .logo{
     width: 4%;
@@ -68,53 +67,124 @@ article{
     width: 100%;
     height: auto;
     overflow: hidden;
-    padding: 5% 10%;
-    box-sizing: border-box;
+    padding: 5% 0 5%;
+    background-color: aqua;
 }
-.subarticle1{
-    width: 40%;
+.subarticle{
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+    background-color: darkgoldenrod;
+}
+.textoarticle{
+    width: 50%;
     height: auto;
     overflow: hidden;
     padding: 5%;
     box-sizing: border-box;
     float: left;
-}
-.subarticle2{
-    width: 40%;
-    height: auto;
-    overflow: hidden;
-    float: left;
+    background-color: chartreuse;
 }
 .titulo{
-    width: 90%;
+    width: 100%;
     height: auto;
     overflow: hidden;
     font-size: x-large;
     color: #108cc6;
     margin-bottom: 5%;
+    background-color: crimson;
 }
 .textinho{
-    width: 90%;
+    width: 100%;
     height: auto;
     overflow: hidden;
     font-size: larger;
+    text-align: justify;
     margin-bottom: 5%;
-}
-.imagemarticle{
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    float: right;
-}
-article img{
-    width: 100%;
+    box-sizing: border-box;
+    background-color: darkgreen;
 }
 button{
     width: 20%;
     height: auto;
     overflow: hidden;
     padding: 1%;
+    box-sizing: border-box;
     background-color: #108cc6;
+}
+.imagemarticle{
+    width: 40%;
+    height: auto;
+    overflow: hidden;
+    padding: 1%;
+    box-sizing: border-box;
+    margin-top: 1%;
+    background-color: blueviolet;
+}
+article img{
+    width: 100%;
+    float: left;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #108cc6;
+    padding: 5% 0 5% 0;
+    box-sizing: border-box;
+}
+.boxgrande{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: auto;
+}
+.box{
+    width: 20%;
+    height: auto;
+    overflow: hidden;
+    margin-left: 10%;
+    float: left;
+}
+.boximage{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 5%;
+}
+.boximage img{
+    width: 100%;
+}
+.titulofooter{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    font-size: larger;
+    color: #ffffff;
+    margin-bottom: 5%;
+}
+.footertext{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: justify;
+    color: #ffffff;
+    padding: 5%;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+}
+.button2{
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    font-size: medium;
+    color: #ffffff;
+    padding: 5%;
+    box-sizing: border-box;
+    margin-left: 10%;
+    background-color: #1d334a;
 }
 @media screen and (max-width: 600px){ 
     .cont, .navegacao, .subarticle1, .subarticle2{

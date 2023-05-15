@@ -114,7 +114,7 @@ button{
     overflow: hidden;
     padding: 1%;
     box-sizing: border-box;
-    margin-top: 1%;
+    margin: 5% 0 5% 0;
 }
 article img{
     width: 100%;
@@ -131,13 +131,11 @@ footer{
     width: 90%;
     height: auto;
     overflow: hidden;
-    box-sizing: border-box;
     margin: auto;
 }
 .box{
     width: 20%;
-    height: auto;
-    overflow: hidden;
+    height: 100%;
     margin-left: 10%;
     float: left;
 }
@@ -154,34 +152,51 @@ footer{
     width: 100%;
     height: auto;
     overflow: hidden;
-    text-align: center;
     font-size: larger;
     color: #ffffff;
-    margin-bottom: 5%;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
 }
 .footertext{
     width: 100%;
     height: auto;
     overflow: hidden;
-    text-align: justify;
+    font-size: large;
     color: #ffffff;
+    text-align: center;
     padding: 5%;
     box-sizing: border-box;
-    margin-bottom: 5%;
+    margin-bottom: 5px;
 }
-.button2{
+.footerbutton{
     width: 80%;
     height: auto;
     overflow: hidden;
-    font-size: medium;
+    background-color: #1d334a;
+    font-size: large;
     color: #ffffff;
-    padding: 5%;
+    padding: 10px;
     box-sizing: border-box;
     margin-left: 10%;
-    background-color: #1d334a;
 }
-@media screen and (max-width: 600px){ 
-    .cont, .navegacao, .subarticle1, .subarticle2, .textoarticle{
+@media screen and (max-width: 1350px){
+    .boxgrande{
+        width: 100%;
+    }
+    .box{
+        margin: 0;
+        width: 33.33%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .textoarticle, .imagemarticle{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 750px){ 
+    .cont, .navegacao, .subarticle1, .subarticle2, .textoarticle, .imagemarticle{
         width: 100%;
         text-align: center;
     }
@@ -194,13 +209,6 @@ footer{
     }
     section img{
         content: url(_imagens/fotofundomenor.jpeg)
-    }
-    .imagemarticle{
-        margin: 0;
-        padding: 0;
-    }
-    .imagemarticle img{
-        display: none;
     }
     .box{
         width: 100%;

@@ -45,10 +45,11 @@ nav{
 .logo img{
     width: 100%;
 }
-.menu{
+li{
     width: 15%;
     height: auto;
     overflow: hidden;
+    list-style: none;
     font-size: medium;
     text-align: center;
     float: right;
@@ -200,7 +201,7 @@ footer{
         width: 100%;
         text-align: center;
     }
-    .menu{
+    li{
         width: 70%;
     }
     .logo{

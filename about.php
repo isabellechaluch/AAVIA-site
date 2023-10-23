@@ -1,54 +1,11 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../img/logo_100.png" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
-    <title>AAVIA Excursões</title>
-</head>
-
+    <?php
+    include "_assets/_includes/head.php";
+    ?>
 <body>
-    <header>
-        <div class="container">
-            <div class="top-menu">
-                <div class="logo">
-                    <a href="../index.html">
-                        <img src="../img/logo.png" alt="AAVIA">
-                        <!-- Colocar efeito de animação -->
-                    </a>
-                </div>
-
-                <nav>
-                    <ul class="navlist">
-                        <li>
-                            <a href="../index.html">Home</a>
-                        </li>
-        
-                        <li>
-                            <a href="about.html">Empresa</a>
-                        </li>
-        
-                        <li>
-                            <a href="">Excursões</a> 
-                            <!-- Colocar submenu aqui com as categorias de excursoes -->
-                        </li>
-        
-                        <li>
-                            <a href="">Contato</a>
-                        </li>
-                    </ul>
-                </nav>           
-                
-                <div class="login-buttons">
-                    <a href="" class="cadastro-button secondary-button">Cadastre-se</a>
-
-                    <a href="" class="login-button primary-button">Login</a>
-                </div>
-            </div>
-        </div>
-    </header>
+    <?php
+        include "_assets/_includes/header.php";
+    ?>
 
     <section class="about-section">
         <div class="container">
@@ -106,6 +63,9 @@
             </div>
         </div>
     </section>
+
+    <?php
+    include "_assets/_includes/footer.php";
+    ?>
 </body>
-    
 </html>

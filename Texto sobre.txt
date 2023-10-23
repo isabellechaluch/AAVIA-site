@@ -5,3 +5,5 @@ Nossa missão é tornar o mundo acessível para todos os apaixonados por viagens
 Ao se cadastrar conosco, você terá acesso a um universo de possibilidades. Nossos especialistas em viagens estão prontos para criar roteiros personalizados que atendam aos seus desejos, seja você um amante de aventuras, um aficionado por culturas locais ou alguém em busca de relaxamento à beira-mar. Cada detalhe é cuidadosamente pensado para garantir que sua jornada seja suave, emocionante e repleta de momentos marcantes.
 
 Não perca a chance de começar a sua própria história de viagens conosco. Cadastre-se agora e dê o primeiro passo em direção a um mundo de descobertas. Junte-se a nós para explorar destinos deslumbrantes, vivenciar novas culturas e criar memórias que durarão toda a vida. Sua próxima grande aventura aguarda!
+
+background-image: linear-gradient(to right, #002563, #103576, #1e458a, #2a569e, #3668b2, #3674be, #3681ca, #378dd6, #2c96dc, #1f9ee0, #10a7e5, #00afe8);

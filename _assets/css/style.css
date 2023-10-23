@@ -1,0 +1,768 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Roboto&display=swap');
+
+:root{
+    --cor-mais-claro: #00d7e1;
+    --cor-claro: #00afe8;
+    --cor-padrao: #4581ce;
+    --cor-escuro: #002563;
+    --cor-fundo: #e6f4f1;
+    --cor-cinza: gainsboro;
+    --preto: #131819;
+    --fonte-padrao: 'Roboto', sans-serif;
+    --size-titulos: 24px;
+    --size-subtitulos: 20px;
+    --size-textos: 16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Pré-definições */
+
+body {
+    font-family: var(--fonte-padrao);
+    font-size: var(--size-textos);
+}
+
+a {
+    text-decoration: none;
+}
+
+article {
+    padding: 60px 0;
+}
+
+.container {
+    width: 100%;
+    padding: 0px 150px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        padding: 0px 60px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .container {
+        padding: 0px 40px;
+    }
+}
+
+@media screen and (max-width: 570px){
+    .container {
+        padding: 0 20px;
+    }
+}
+
+.secondary-button {
+    color: var(--preto);
+    background-color: var(--cor-cinza);
+    padding: 10px 20px;
+    width: fit-content;
+}
+
+.secondary-button:hover {
+    color: #fff;
+    background-color: var(--cor-mais-claro);
+}
+
+.primary-button {
+    color: #fff;
+    background-color: var(--cor-padrao);
+    padding: 10px 20px;
+    width: fit-content;
+}
+
+.primary-button:hover {
+    color: var(--cor-fundo);
+    background-color: var(--cor-claro);
+}
+
+/* INDEX */
+
+/* Header */
+header, 
+.top-menu, 
+.header,  
+.navegacao {
+    width: 100%;
+}
+
+header {
+    box-shadow: #111010 0 0 8px;
+}
+
+.call-article {
+    height: calc(100vh);
+    background-image: url(../_media/praia_fundo.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.top-menu {
+    background-color: var(--cor-padrao);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.top-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-phone, 
+.top-social-media {
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.top-phone p {
+    color: #fff;
+}
+
+.tel-link {
+    display: flex;
+    align-items: center;
+}
+
+.top-icon {
+    width: 22px;
+    margin-left: 6px;
+    fill: #fff;
+}
+
+.top-icon:hover {
+    fill: var(--cor-claro);
+}
+
+.header {
+    width: 100%;
+    background-color: #fff;
+}
+
+.header-box {
+    display: grid;
+    grid-template-columns: 1fr 6fr 2fr;
+    grid-template-rows: 1fr;
+}
+
+.logo {
+    width: 70px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navlist {
+    display: flex;
+    flex-direction: row;
+}
+
+.navlist li {
+    list-style: none;
+}
+
+.navlist a {
+    color: var(--preto);
+    padding: 5px 20px;
+    text-transform: uppercase;
+}
+
+.navlist a:hover {
+    color: var(--cor-padrao);
+}
+
+.link-drop {
+    position: relative;
+    transition: all 0.3s;
+}
+
+.submenu {
+    background-color: #fff;
+    padding: 15px 10px;
+    box-shadow: 0 4px 6px rgba(31, 30, 30, 0.3);
+    margin-top: 34px;
+    display: none;
+    z-index: 10;
+    position: absolute;
+}
+
+.arrow-down {
+    width: 15px;
+    transition: all 0.3s;
+}
+
+.arrow-up {
+    transform: rotate(180deg);
+    transition: all 0.3s;
+}
+
+.submenu a {
+    text-transform: none;
+}
+
+.submenu a:hover {
+    background-color: var(--cor-fundo);
+}
+
+.submenu li {
+    margin-bottom: 15px;
+}
+
+.bar-button-box {
+    display: none;
+}
+
+.login-buttons {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.login-buttons a {
+    height: 20px;
+    padding: 10px 20px;
+    margin-left: 5px;
+}
+
+.cadastro-button {
+    margin-right: 15px;
+}
+
+.bars-button {
+    display: none;
+    cursor: pointer;
+}
+
+/* CALL */
+
+.call-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+.call {
+    width: 30rem;
+    margin-top: 150px;
+    /* background-color: #00000048; */
+}
+
+.title-call h1, .title-call h2 {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 5px 0;
+}
+
+.title-call h1 {
+    font-size: 40px;
+    color: var(--cor-fundo);
+}
+
+.title-call h2 {
+    color: var(--cor-fundo);
+}
+
+.call-button {
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/* INTRO */
+
+.intro {
+    height: auto;
+    padding: 0 100px;
+    display: flex;
+}
+
+.intro-first-box {
+    width: 100%;
+}
+
+.title-intro {
+    font-size: var(--size-subtitulos);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.title-intro::before {
+    content: '';
+    width: 100%;
+    height: 5px;
+    top: 40px;
+    left: 0;
+    background-color: var(--cor-padrao);
+    position: absolute;
+}
+
+.text-intro p {
+    text-align: center;
+    font-size: var(--size-textos);
+    font-family: var(--fonte-textos);
+    line-height: 25px;
+}
+
+.img-intro {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-intro img {
+    width: 20rem;
+}
+
+/* SERVICES */
+
+.icons-services-article {
+    padding: 0;
+}
+
+.box-services {
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.icon-service {
+    width: 20rem;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-service img {
+    width: 4em;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+.title-services {
+    text-align: center;
+    font-size: var(--size-subtitulos);
+    margin-top: 10px;
+}
+
+.text-service{
+    line-height: 25px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* TRAVELS */
+.travels {
+    background-image: url(../_media/fundo-cards.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px);
+}
+
+.title-travels {
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 40px;
+}
+
+.travel-cards-box {
+    display: flex;
+    justify-content: center;
+}
+
+.travel-card {
+    width: 15rem;
+    height: 21rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 0 20px;
+    transition: all 0.3s ease-out;
+}
+
+.travel-card:hover {
+    transform: scale(1.1);
+}
+
+.travel-card a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+}
+
+.travel-first-card {
+    background-image: url(../_media/natureza.jpeg);
+}
+
+.travel-middle-card {
+    background-image: url(../_media/hotel-card.jpeg);
+}
+
+.travel-last-card {
+    background-image: url(../_media/praia-card.jpeg);
+}
+
+.travel-title-card {
+    padding: 0 0 10px 10px;
+    text-transform: uppercase;
+    font-size: var(--size-subtitulos);
+    font-weight: 600;
+    color: #fff;
+}
+
+/* REVIEWS */
+
+.review-article {
+    background-color: var(--cor-claro);
+}
+
+.title-reviews {
+    width: 100%;
+    color: white;
+    font-size: var(--size-titulos);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.review-box {
+    width: 50%;
+    background-color: white;
+    box-shadow:  2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review-box img {
+    width: 6em;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.review-box h3 {
+    margin-bottom: 10px;
+}
+
+.review-box p {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*PICTURES */
+
+.pictures-index {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.picture-box {
+    width: 20rem;
+    margin: 0 10px;
+}
+
+.picture-box img {
+    width: 100%;
+}
+
+.buttons-pictures {
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons-pictures img {
+    cursor: pointer;
+}
+
+/* OTHERS */
+
+.others {
+    background-color:var(--cor-padrao);
+}
+
+.cards-others {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-others {
+    width: 100%;
+    font-size: 32px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 50px;
+}
+
+.other-card {
+    width: 20rem;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-card {
+    margin: 0 15px;
+}
+
+.card-image img {
+    width: 100%;
+    border-radius: 15px
+}
+
+.title-card {
+    font-size: var(--size-subtitulos);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.card-text {
+    color: var(--cor-fundo);
+    margin-top: 15px;
+    color: #000;
+}
+
+.card-others-button {
+    background-color: var(--cor-padrao);
+    color: #ffff;
+    font-size: var(--size-subtitulos);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.card-others-button:hover {
+    background-color: var(--cor-mais-claro);
+}
+
+/* Footer */
+
+footer {
+    background-image: linear-gradient(to left, #4581ce, #859dda, #b4bbe6, #dcdcf2, #ffffff);
+    padding: 60px 0;
+}
+
+.footer-box {
+    display: flex;
+}
+
+.logo-footer, 
+.menu-footer {
+    width: 20%;
+}
+
+.social-media-box, 
+.contacts-footer {
+    width: 30%;
+}
+
+.logo-footer img {
+    width: 40%;
+}
+
+.title-footer {
+    font-size: var(--size-subtitulos);
+    text-transform: uppercase;
+}
+
+.navlist-footer {
+    list-style: none;
+}
+
+.nav-item {
+    padding: 10px 0;
+}
+
+.nav-link {
+    color: #000;
+    text-transform: uppercase;
+}
+
+.contact-footer {
+    padding: 5px 0;
+}
+
+.social-media-icon {
+    width: 30px;
+    margin-top: 10px;
+}
+
+/* ABOUT */
+
+.about-section {
+    background-image: url(../_media/background-repeat.jpg);
+    background-repeat: repeat;
+    display: flex;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    margin: 40px 0;
+}
+
+.about-text-box {
+    background-color: #fff;
+    margin-right: 20px;
+    padding: 25px;
+}
+
+.about-title {
+    color: var(--cor-escuro);
+    margin-bottom: 20px;
+    font-size: var(--size-subtitulos);
+    text-align: center;
+}
+
+.about-text {
+    color: var(--preto);
+    font-size: var(--size-textos);
+}
+
+.about-images {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-img {
+    padding: 7px 10px;
+}
+
+.about-img img {
+    width: 25rem;
+    height: 15rem;
+}
+
+
+@media screen and (max-width: 570px){
+    
+}
+
+@media screen and (max-width: 770px){ 
+    .top-menu {
+        justify-content: space-between !important;
+    }
+    
+    nav, 
+    .login-buttons {
+        display: none;
+    }
+
+    .bars-button {
+        display: block;
+    }
+
+    .bar-button-box {
+        display: flex;
+        align-items: center;
+    }
+
+    .reviews {
+        flex-wrap: wrap;
+    }
+
+    .review-box {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 990px){
+    nav {
+        width: 60%;
+    }
+
+    .login-buttons {
+        justify-content: end !important;
+    }
+
+    .cadastro-button{
+        display: none;
+    }
+
+    .cards-others, 
+    .footer-box {
+        flex-wrap: wrap;
+    }
+
+    .icon-service, 
+    .other-card {
+        width: 25rem;
+    }
+
+    .other-card {
+        margin-top: 15px;
+    }
+
+    .logo-footer, 
+    .menu-footer, 
+    .contact-footer, 
+    .social-media-box {
+        width: 100%;
+    }
+
+    .logo-footer img {
+        width: 10rem;
+    }
+
+    /* call e cards- configurar os cards com js para aparecerem dois na tela quando ela diminuir */
+}
+
+@media screen and (max-width: 1200px) {
+    .title-call h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .title-call h1{
+        font-size: 30px;
+    }
+}
+
+
+
+
+    
+  

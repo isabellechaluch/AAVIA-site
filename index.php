@@ -11,8 +11,8 @@
 
                     <h2>Explore o mundo com a AAVIA</h2>
 
-                    <div class="call-button primary-button">
-                        <a href="#" class="call-button">Cadastre-se agora!</a>
+                    <div class="call-button">
+                        <a href="#" class="call-link">Cadastre-se agora!</a>
                     </div>
                 </div>
             </div>
@@ -22,8 +22,7 @@
     <article class="introarticle">
         <div class="container">
             <div class="intro">
-
-                <div class="intro-first-box">
+                <div class="intro-text-box">
                     <div class="title-intro">
                         Bem vindo(a) à AAVIA !
                     </div>
@@ -44,6 +43,37 @@
                             grande aventura está a um clique de distância!
                         </p>
                     </div>
+                </div>
+
+                <div class="intro-img-box">
+                    <img src="_assets/_media/pexels-clem-onojeghuo-211047.jpg" class="img-intro" alt="Mulher caminhando no campo">
+                    <div class="decorative-intro"></div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <article class="travels">
+        <div class="container">
+            <h1 class="title-travels">Nossas excursões</h1>
+
+            <div class="travel-cards-box">
+                
+                <div class="travel-card travel-first-card">
+                    <a href="#">
+                        <h4 class="travel-title-card">Natureza</h4>
+                    </a>
+                </div>
+
+                <div class="travel-card travel-middle-card">
+                    <a href="#">
+                        <h4 class="travel-title-card">Resorts</h4>
+                    </a>
+                </div>
+                <div class="travel-card travel-last-card">
+                    <a href="#">
+                        <h4 class="travel-title-card">Praias</h4>
+                    </a>
                 </div>
             </div>
         </div>
@@ -76,32 +106,6 @@
                     <h2 class="title-services">Viagens o ano todo</h2>
 
                     <p class="text-service">Aventuras o ano todo, a qualquer momento! Com nossas excursões, você pode explorar destinos incríveis em qualquer época do ano! Fale conosco agora para viajar quando e onde quiser!</p>
-                </div>
-            </div>
-        </div>
-    </article>
-
-    <article class="travels">
-        <div class="container">
-            <h1 class="title-travels">Nossas excursões</h1>
-
-            <div class="travel-cards-box">
-                
-                <div class="travel-card travel-first-card">
-                    <a href="#">
-                        <h4 class="travel-title-card">Natureza</h4>
-                    </a>
-                </div>
-
-                <div class="travel-card travel-middle-card">
-                    <a href="#">
-                        <h4 class="travel-title-card">Resorts</h4>
-                    </a>
-                </div>
-                <div class="travel-card travel-last-card">
-                    <a href="#">
-                        <h4 class="travel-title-card">Praias</h4>
-                    </a>
                 </div>
             </div>
         </div>
@@ -158,6 +162,7 @@
     </article>
 
     <!-- Ligar essa parte ao banco de dados -->
+    <!-- Colocar opção de slideshow -->
     <article class="pictures-article">
         <div class="container">
             <div class="pictures-index">

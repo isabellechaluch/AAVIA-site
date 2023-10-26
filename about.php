@@ -46,20 +46,6 @@
                         </p>
                     </div>
                 </div>
-
-                <div class="about-images">
-                    <div class="about-img">
-                        <img src="../img/pexels-clem-onojeghuo-211047.jpg" alt="">
-                    </div>
-    
-                    <div class="about-img">
-                        <img src="../img/pexels-krivec-ales-547116.jpg" alt="">
-                    </div>
-    
-                    <div class="about-img">
-                        <img src="../img/pexels-tirachard-kumtanom-450062.jpg" alt="">
-                    </div>
-                </div>
             </div>
         </div>
     </section>

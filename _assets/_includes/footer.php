@@ -14,7 +14,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="pages/about.html" class="nav-link">Empresa</a>
+                            <a href="about.php" class="nav-link">Empresa</a>
                         </li>
 
                         <li class="nav-item">

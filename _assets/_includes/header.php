@@ -91,7 +91,7 @@
                     </div>
 
                     <div class="login-buttons">
-                        <a href="" class="cadastro-button secondary-button">Cadastre-se</a>
+                        <a href="" class="cadastro-button second-color-button">Cadastre-se</a>
 
                         <a href="" class="login-button primary-button">Login</a>
                     </div>

@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Roboto&display=swap');
 
 :root{
-    --cor-mais-claro: #00d7e1;
     --cor-claro: #00afe8;
     --cor-padrao: #4581ce;
     --cor-escuro: #002563;
-    --cor-fundo: #e6f4f1;
-    --cor-cinza: gainsboro;
+    --cor-secundaria: #eea00e;
+    --cor-secundaria-hover: #c5652d;
+    --cor-cinza: rgb(190, 190, 190);
     --preto: #131819;
-    --fonte-padrao: 'Roboto', sans-serif;
+    --fonte-padrao: 'Segoe UI';
     --size-titulos: 24px;
     --size-subtitulos: 20px;
-    --size-textos: 16px;
+    --size-textos: 17px;
 }
 
 *{
@@ -31,7 +31,7 @@ a {
 }
 
 article {
-    padding: 60px 0;
+    padding: 70px 0;
 }
 
 .container {
@@ -67,7 +67,7 @@ article {
 
 .secondary-button:hover {
     color: #fff;
-    background-color: var(--cor-mais-claro);
+    background-color: var(--cor-secundaria);
 }
 
 .primary-button {
@@ -78,8 +78,18 @@ article {
 }
 
 .primary-button:hover {
-    color: var(--cor-fundo);
     background-color: var(--cor-claro);
+}
+
+.second-color-button {
+    color: #fff;
+    padding: 10px 20px;
+    width: fit-content;
+    background-color: var(--cor-secundaria);
+}
+
+.second-color-button:hover {
+    background-color: var(--cor-secundaria-hover);
 }
 
 /* INDEX */
@@ -97,10 +107,10 @@ header {
 }
 
 .call-article {
-    height: calc(100vh);
+    height: 400px;
     background-image: url(../_media/praia_fundo.jpg);
     background-size: cover;
-    background-position: top;
+    background-position: center;
 }
 
 .top-menu {
@@ -236,10 +246,8 @@ nav {
     height: 20px;
     padding: 10px 20px;
     margin-left: 5px;
-}
-
-.cadastro-button {
-    margin-right: 15px;
+    display: flex;
+    align-items: center;
 }
 
 .bars-button {
@@ -270,15 +278,21 @@ nav {
 
 .title-call h1 {
     font-size: 40px;
-    color: var(--cor-fundo);
+    color: #fff;
 }
 
 .title-call h2 {
-    color: var(--cor-fundo);
+    color: #fff;
 }
 
 .call-button {
     margin-top: 20px;
+    border: 3px solid #fff;
+    width: fit-content;
+    padding: 5px 10px;
+}
+
+.call-link {
     text-transform: uppercase;
     color: #fff;
 }
@@ -287,21 +301,21 @@ nav {
 
 .intro {
     height: auto;
-    padding: 0 100px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.intro-first-box {
-    width: 100%;
+.intro-text-box {
+    width: 50%;
 }
 
 .title-intro {
     font-size: var(--size-subtitulos);
     text-align: center;
     text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 1px;
     margin-bottom: 40px;
+    font-weight: 600;
     position: relative;
 }
 
@@ -311,7 +325,8 @@ nav {
     height: 5px;
     top: 40px;
     left: 0;
-    background-color: var(--cor-padrao);
+    border-radius: 5px;
+    background-color: var(--cor-secundaria);box-shadow: 0 3px 3px 0 #13181991;
     position: absolute;
 }
 
@@ -322,24 +337,29 @@ nav {
     line-height: 25px;
 }
 
-.img-intro {
-    width: 50%;
-    display: flex;
-    justify-content: center;
+.intro-img-box {
+    width: 40%;
+    position: relative;
 }
 
-.img-intro img {
-    width: 20rem;
+.decorative-intro {
+    width: 100%;
+    height: 20rem;
+    background-color: #eea00e;
+    z-index: -1;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+.img-intro {
+    width: 100%;
+    z-index: 50;
 }
 
 /* SERVICES */
 
-.icons-services-article {
-    padding: 0;
-}
-
 .box-services {
-    padding-bottom: 40px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -441,7 +461,7 @@ nav {
 /* REVIEWS */
 
 .review-article {
-    background-color: var(--cor-claro);
+    background-color: var(--cor-cinza);
 }
 
 .title-reviews {
@@ -458,11 +478,11 @@ nav {
 }
 
 .review-box {
-    width: 50%;
+    width: 15rem;
     background-color: white;
+    font-size: 14px;
     box-shadow:  2px 2px 4px rgba(0, 0, 0, 0.5);
     padding: 20px;
-    margin: 20px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -470,7 +490,7 @@ nav {
 }
 
 .review-box img {
-    width: 6em;
+    width: 5em;
     border-radius: 50%;
     margin-bottom: 10px;
 }
@@ -528,7 +548,7 @@ nav {
     width: 100%;
     font-size: 32px;
     text-align: center;
-    color: #000;
+    color: #fff;
     margin-bottom: 50px;
 }
 
@@ -573,13 +593,12 @@ nav {
 }
 
 .card-others-button:hover {
-    background-color: var(--cor-mais-claro);
+    background-color: var(--cor-claro);
 }
 
 /* Footer */
 
 footer {
-    background-image: linear-gradient(to left, #4581ce, #859dda, #b4bbe6, #dcdcf2, #ffffff);
     padding: 60px 0;
 }
 

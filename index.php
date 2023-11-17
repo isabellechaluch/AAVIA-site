@@ -12,7 +12,7 @@
                     <h2>Explore o mundo com a AAVIA</h2>
 
                     <div class="call-button">
-                        <a href="#" class="call-link">Cadastre-se agora!</a>
+                        <a href="cadastro.php" class="call-link">Cadastre-se agora!</a>
                     </div>
                 </div>
             </div>
@@ -47,7 +47,6 @@
 
                 <div class="intro-img-box">
                     <img src="_assets/_media/pexels-clem-onojeghuo-211047.jpg" class="img-intro" alt="Mulher caminhando no campo">
-                    <div class="decorative-intro"></div>
                 </div>
             </div>
         </div>
@@ -60,18 +59,18 @@
             <div class="travel-cards-box">
                 
                 <div class="travel-card travel-first-card">
-                    <a href="#">
+                    <a href="natureza.php">
                         <h4 class="travel-title-card">Natureza</h4>
                     </a>
                 </div>
 
                 <div class="travel-card travel-middle-card">
-                    <a href="#">
+                    <a href="resorts.php">
                         <h4 class="travel-title-card">Resorts</h4>
                     </a>
                 </div>
                 <div class="travel-card travel-last-card">
-                    <a href="#">
+                    <a href="praias.php">
                         <h4 class="travel-title-card">Praias</h4>
                     </a>
                 </div>

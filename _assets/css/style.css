@@ -42,13 +42,19 @@ article {
 
 @media screen and (max-width: 1200px) {
     .container {
-        padding: 0px 60px;
+        padding: 0px 110px;
     }
 }
 
 @media screen and (max-width: 990px) {
     .container {
-        padding: 0px 40px;
+        padding: 0px 80px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .container {
+        padding: 0px 60px;
     }
 }
 
@@ -183,16 +189,20 @@ nav {
 
 .navlist li {
     list-style: none;
+    padding: 5px 15px;
 }
 
-.navlist a {
+.nav-link {
     color: var(--preto);
-    padding: 5px 20px;
     text-transform: uppercase;
 }
 
-.navlist a:hover {
+.nav-link:hover {
     color: var(--cor-padrao);
+}
+
+.nav-active {
+    color: var(--cor-padrao) !important;
 }
 
 .link-drop {
@@ -234,25 +244,72 @@ nav {
 
 .bar-button-box {
     display: none;
+    width: fit-content;
+    margin-left: 20px;
+    cursor: pointer;
 }
 
-.login-buttons {
+.bar-button-box:active {
+    background-color: var(--cor-escuro);
+}
+
+.nav-buttons-box {
     display: flex;
+    align-items: center;
     justify-content: end;
     align-items: center;
 }
 
-.login-buttons a {
-    height: 20px;
-    padding: 10px 20px;
-    margin-left: 5px;
+.login-buttons {
     display: flex;
     align-items: center;
 }
 
-.bars-button {
-    display: none;
-    cursor: pointer;
+.login-buttons a {
+    padding: 10px 20px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+
+.login-button {
+    margin-left: 5px;
+}
+
+.side-menu {
+    width: 0px;
+    height: 100%;
+    background-color: #fff;
+    right: 0;
+    top: 0;
+    position: fixed;
+    z-index: 20;
+    transition: all 0.5s;
+}
+
+.navlist-side {
+    margin-top: 40px;
+}
+
+.navlist-side li {
+    list-style: none;
+    padding: 5px 30px;
+}
+
+.side-submenu {
+    background-color: #00000000;
+    position: relative;
+    box-shadow: none;
+    margin: 0;
+}
+
+.submenu-link {
+    color: #000;
+}
+
+.button-close {
+   padding: 10px 0 0 20px;
+   cursor: pointer;
 }
 
 /* CALL */
@@ -340,16 +397,7 @@ nav {
 .intro-img-box {
     width: 40%;
     position: relative;
-}
-
-.decorative-intro {
-    width: 100%;
-    height: 20rem;
-    background-color: #eea00e;
-    z-index: -1;
-    position: absolute;
-    left: 40px;
-    top: 40px;
+    border: 10px inset var(--cor-secundaria);
 }
 
 .img-intro {
@@ -599,25 +647,25 @@ nav {
 /* Footer */
 
 footer {
-    padding: 60px 0;
+    padding-top: 60px;
 }
 
 .footer-box {
-    display: flex;
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr 3fr;
+    grid-template-rows: 1fr;
+    padding-bottom: 40px;
 }
 
 .logo-footer, 
-.menu-footer {
-    width: 20%;
-}
-
+.menu-footer, 
 .social-media-box, 
 .contacts-footer {
-    width: 30%;
+    padding: 0 15px;
 }
 
 .logo-footer img {
-    width: 40%;
+    width: 115px;
 }
 
 .title-footer {
@@ -636,6 +684,8 @@ footer {
 .nav-link {
     color: #000;
     text-transform: uppercase;
+    font-size: 14px;
+    white-space: nowrap;
 }
 
 .contact-footer {
@@ -645,6 +695,17 @@ footer {
 .social-media-icon {
     width: 30px;
     margin-top: 10px;
+}
+
+.dev-footer {
+    background-color: var(--cor-secundaria);
+    padding: 30px 0;
+}
+
+.dev-text {
+    width: 100%;
+    color: #fff;
+    text-align: center;
 }
 
 /* ABOUT */
@@ -693,28 +754,39 @@ footer {
     height: 15rem;
 }
 
+@media screen and (max-width: 370px) {
+    .top-box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
 
 @media screen and (max-width: 570px){
-    
+    .intro-img-box {
+        width: 100% !important;
+    }
+
+    article {
+        padding: 30px 0;
+    }
+
+    .title-call h1, 
+    .title-travels, 
+    .title-others
 }
 
 @media screen and (max-width: 770px){ 
     .top-menu {
         justify-content: space-between !important;
     }
-    
-    nav, 
+     
     .login-buttons {
         display: none;
     }
 
-    .bars-button {
-        display: block;
-    }
-
-    .bar-button-box {
-        display: flex;
-        align-items: center;
+    .intro-img-box {
+        width: 60% !important;
     }
 
     .reviews {
@@ -725,47 +797,88 @@ footer {
         width: 100%;
     }
 
+    .cards-others {
+        width: 80vw !important;
+    }
+
 }
 
 @media screen and (max-width: 990px){
+    .header-box {
+        display: flex;
+        justify-content: space-between;
+    }
+
     nav {
-        width: 60%;
-    }
-
-    .login-buttons {
-        justify-content: end !important;
-    }
-
-    .cadastro-button{
         display: none;
     }
 
-    .cards-others, 
-    .footer-box {
-        flex-wrap: wrap;
+    .bar-button-box {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }  
+
+    .call {
+        margin-top: 50px;
     }
 
-    .icon-service, 
+    .call-article {
+        height: 300px;
+    }
+
+    .intro {
+        flex-direction: column;
+    }
+
+    .intro-text-box {
+        width: 90%;
+        margin-bottom: 40px;
+    }
+
+    .intro-img-box {
+        width: 50%;
+    }
+
+    .cards-others {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cards-others {
+        width: 30rem;
+        margin: 0 auto;
+        display: flex;
+    }
+
     .other-card {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .icon-service {
         width: 25rem;
     }
 
-    .other-card {
-        margin-top: 15px;
+    footer {
+        padding-top: 40px;
+    }
+
+    .footer-box {
+        padding: 0 40px 40px 40px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 4fr;
     }
 
     .logo-footer, 
     .menu-footer, 
-    .contact-footer, 
+    .contacts-footer, 
     .social-media-box {
-        width: 100%;
+        padding: 20px 0;
     }
 
-    .logo-footer img {
-        width: 10rem;
-    }
-
-    /* call e cards- configurar os cards com js para aparecerem dois na tela quando ela diminuir */
+    /* call e cards, reviews- configurar os cards com js para aparecerem dois na tela quando ela diminuir */
 }
 
 @media screen and (max-width: 1200px) {

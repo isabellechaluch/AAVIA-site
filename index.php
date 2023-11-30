@@ -1,6 +1,8 @@
+<?php
+    include('_assets/_includes/head.php');
+?>
 <body>
     <?php
-        include('_assets/_includes/head.php');
         include('_assets/_includes/header.php');
     ?>
     <article class="call-article">
@@ -232,3 +234,4 @@
         include('_assets/_includes/footer.php')
     ?>
 </body>
+</html>

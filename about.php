@@ -1,11 +1,20 @@
-<!DOCTYPE html>
-    <?php
+<?php
     include "_assets/_includes/head.php";
-    ?>
+?>
 <body>
     <?php
         include "_assets/_includes/header.php";
     ?>
+
+    <section>
+        <div class="background-page background-about">
+            <div class="container">
+                <div class="title-page">
+                    <h1>Empresa</h1>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="about-section">
         <div class="container">

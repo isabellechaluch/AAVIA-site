@@ -73,7 +73,7 @@
         <div class="container">
             <div class="header-box">
                 <div class="logo">
-                    <a href="index.html">
+                    <a href="index.php">
                         <img src="_assets/_media/logo.png" alt="AAVIA">
                         <!-- Colocar efeito de animação -->
                     </a>
@@ -95,9 +95,10 @@
                                 <img class="arrow-down" src="_assets/_media/seta.png" alt="">
                             </a>
                             <ul class="submenu">
-                                <li><a href="praias.php">Praias</a></li>
-                                <li><a href="natureza.php">Natureza</a></li>
-                                <li><a href="resorts.php">Resorts</a></li>
+                                <li><a href="praias.php" class="submenu-link">Praias</a></li>
+                                <li><a href="natureza.php" class="submenu-link">Natureza</a></li>
+                                <li><a href="resorts.php" class="submenu-link">Resorts</a></li>
+                                <li><a href="resorts.php" class="submenu-link">Todas</a></li>
                             </ul>
                         </li>
 
@@ -107,9 +108,9 @@
                                 <img class="arrow-down" src="_assets/_media/seta.png" alt="">
                             </a>
                             <ul class="submenu">
-                                <li><a href="hoteis.php">Hotéis</a></li>
-                                <li><a href="passagens-aviao.php">Passagens de avião</a></li>
-                                <li><a href="passagens.php">Passagens de ônibus</a></li>
+                                <li><a href="hoteis.php" class="submenu-link">Hotéis</a></li>
+                                <li><a href="passagens-aviao.php" class="submenu-link">Passagens de avião</a></li>
+                                <li><a href="passagens.php" class="submenu-link">Passagens de ônibus</a></li>
                             </ul>
                         </li>
 

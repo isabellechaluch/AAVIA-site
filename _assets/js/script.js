@@ -1,5 +1,18 @@
-// Menu dropdown
+// Header scroll
+const header = document.querySelector(".header");
+const topBar = document.querySelector(".top-menu");
 
+document.addEventListener("scroll", () => {
+  if (window.scrollY >= 100) {
+    header.classList.add("fixed");
+    topBar.style = "margin-top: -31px";
+  } else if (window.scrollY === 0) {
+    header.classList.remove("fixed");
+    topBar.style = "margin-top: 0";
+  }
+});
+
+// Menu dropdown
 const linkDrops = document.querySelectorAll('.link-drop');
 
 linkDrops.forEach(function (clickDrop) {
@@ -14,7 +27,6 @@ linkDrops.forEach(function (clickDrop) {
 });
 
 // Sidebar
-
 let barButton = document.querySelector('.bar-button-box');
 let closeButton = document.querySelector('.button-close');
 let sideMenu = document.querySelector('.side-menu');

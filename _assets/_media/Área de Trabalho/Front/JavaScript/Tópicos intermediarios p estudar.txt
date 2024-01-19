@@ -1,0 +1,19 @@
+    Closures: Aprofunde-se em closures, que são funções que têm acesso às variáveis de seu escopo externo mesmo após a execução desse escopo.
+
+    Callbacks: Estude como usar e criar callbacks para lidar com operações assíncronas e eventos em JavaScript.
+
+    Trabalhando com Promises: Além de entender Promises, estude como encadear várias Promises e lidar com erros usando .then() e .catch().
+
+    Manipulação de Arrays: Explore métodos avançados de arrays, como map(), filter(), reduce(), e aprenda a manipular arrays complexos.
+
+    ES6+: Dê uma olhada em recursos mais avançados do ECMAScript 6 (ES6), como Arrow Functions, Template Literals, Destructuring, Spread/Rest Operators, e mais.
+
+    Iterators e Generators: Compreenda como criar iteradores personalizados e usar geradores para controlar fluxos de dados.
+
+    Bibliotecas e Frameworks: Experimente a utilização de bibliotecas e frameworks populares, como React, Vue.js, ou Angular, para criar aplicações web mais robustas.
+
+    LocalStorage e SessionStorage: Saiba como armazenar dados no navegador usando esses mecanismos de armazenamento.
+
+    Autenticação e Autorização: Aprenda sobre autenticação de usuário, gerenciamento de sessões e como proteger rotas em aplicações web.
+
+    Webpack: Estude como usar o Webpack para empacotar e otimizar seu código JavaScript, bem como trabalhar com módulos e recursos estáticos.

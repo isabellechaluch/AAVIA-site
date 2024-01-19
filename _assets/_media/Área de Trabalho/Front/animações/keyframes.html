@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            min-height: 100vh;
+            background-image: url(img/terminal.jpg);
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        h1 {
+            width: 100%;
+            text-align: center;
+        }
+        .pombo {
+            /* animation-name: fly; */
+            /* animation-duration: 2s;
+            animation-timing-function: ease-out; */
+            /* animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); */
+            /* animation-delay: 1s; */
+            /* animation-iteration-count: infinite; */
+            /* animation-direction: alternate; */
+            /* animation-fill-mode: forwards; */
+            /* animation-play-state: paused; */
+            animation: fly 2s ease-out infinite paused;
+        }
+        .pombo:hover {
+            animation-play-state: running;
+        }
+        /* Para keyframes, usar apenas trnasform e opacity */
+        @keyframes fly {
+            50% {
+                transform: translate(200%, -50px);
+            }
+            100% {
+                transform: translate(calc(100vw - 200px), 0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>PEGUE O POMBO!</h1>
+    <div class="box">
+        <img src="img/pombo.png" class="pombo" width="200px">
+    </div>
+</body>
+</html>

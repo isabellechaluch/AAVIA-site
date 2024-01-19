@@ -1,0 +1,17 @@
+.fa-instagram:before {
+  content: "\f16d";
+}
+
+<i class="fa fa-instagram"></i>
+
+.fa-youtube {
+  content: "\f167";
+}
+
+.fa-linkedin {
+  content: "\f08c";
+}
+
+.fa-search {
+  content: "\f002";
+}

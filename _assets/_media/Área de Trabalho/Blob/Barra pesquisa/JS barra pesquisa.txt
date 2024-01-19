@@ -1,0 +1,22 @@
+//Search item
+document.querySelector("#search-button").addEventListener("click", function () {
+  search();
+});
+
+document.querySelector(".search").addEventListener("keypress", function (event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    search();
+  }
+});
+
+// Função para fazer a pesquisa
+function search() {
+  const searchTerm = document.querySelector(".search").value;
+
+  if (searchTerm !== "") {
+    const redirect = "https://www.zariftapetes.com.br/busca?p=" + encodeURIComponent(searchTerm);
+
+    window.location.href = redirect;
+  }
+}

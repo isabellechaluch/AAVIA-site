@@ -1,0 +1,10 @@
+<div class="search-box">
+	<form action="GET" class="form-search">
+		<input type="text" class="search" placeholder="Digite o produto...">
+		<div class="search-button-box">
+			<button type="button" class="search-button" id="search-button" aria-label="Procurar">
+				<iclass="fa fa-search"></i>
+			</button>
+		</div>
+	</form>
+</div>

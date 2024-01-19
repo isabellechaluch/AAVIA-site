@@ -9,8 +9,8 @@
     <section>
         <div class="background-page background-about">
             <div class="container">
-                <div class="title-page">
-                    <h1>Empresa</h1>
+                <div class="page-title">
+                    <strong>Empresa</strong>
                 </div>
             </div>
         </div>

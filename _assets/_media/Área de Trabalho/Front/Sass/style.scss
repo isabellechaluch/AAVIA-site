@@ -1,0 +1,32 @@
+$cortextos: #ff7f50;
+$fundo: #12f24a;
+
+@mixin paraTodos($tamanho) {
+    width: $tamanho;
+    height: 200px;
+}
+
+body {
+    background-color: aqua;
+}
+
+h1 {
+    color: $cortextos;
+}
+
+p {
+    color: $cortextos;
+}
+
+.caixa {
+    @include paraTodos(150px);
+    background-color: $fundo;
+    p {
+        color: $cortextos;
+    }
+}
+
+.outra-caixa {
+    @include paraTodos(200px);
+    background-color: $cortextos;
+}

@@ -1,9 +1,9 @@
 <header>
     <div class="top-menu">
         <div class="container">
-            <div class="top-box">
-                <div class="top-phone">
-                    <a href="#" class="tel-link">
+            <div class="box-inline-items top-bar">
+                <div class="top-item box-inline-items">
+                    <a href="#" class="box-inline-items">
                         <p>Telefone: (41)0000-0000</p>
 
                         <svg class="top-icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
@@ -22,7 +22,7 @@
                     </a>
                 </div>
 
-                <div class="top-social-media">
+                <div class="top-item box-inline-items">
                     <a href="#">
                         <svg class="top-icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
                             viewBox="0,0,256,256">
@@ -74,12 +74,12 @@
             <div class="header-box">
                 <div class="logo">
                     <a href="index.php">
-                        <img src="_assets/_media/logo.png" alt="AAVIA">
+                        <img src="_assets/_media/logo.png" width="70px" height="80px" alt="AAVIA">
                         <!-- Colocar efeito de animação -->
                     </a>
                 </div>
 
-                <nav>
+                <nav class="box-inline-centered nav">
                     <ul class="navlist">
                         <li>
                             <a href="index.php" class="nav-link nav-active">Home</a>
@@ -120,11 +120,11 @@
                     </ul>
                 </nav>
 
-                <div class="nav-buttons-box">
-                    <div class="login-buttons">
-                        <a href="cadastro.php" class="cadastro-button second-color-button">Cadastre-se</a>
+                <div class="box-inline-centered nav-buttons-box">
+                    <div class="login-buttons box-inline-centered">
+                        <a href="cadastro.php" class="box-inline-centered button secondary-button">Cadastre-se</a>
 
-                        <a href="login.php" class="login-button primary-button">Login</a>
+                        <a href="login.php" class="login-button button primary-button">Login</a>
                     </div>
 
                     <div class="bar-button-box">

@@ -1,0 +1,16 @@
+<div class="accordion-content">
+									<div class="lang-item" id="google_translate_element">
+										<img width="24px" height="18px" src="assets/img/en.svg" alt="English">
+										<p class="lang-text">English</p>
+									</div>
+
+									<div class="lang-item">
+										<img width="24px" height="18px" src="assets/img/pt.svg" alt="Português">
+										<p class="lang-text">Português</p>
+									</div>
+
+									<div class="lang-item">
+										<img width="24px" height="18px" src="assets/img/es.svg" alt="Español">
+										<p class="lang-text"> Español</p>
+									</div>
+								</div>

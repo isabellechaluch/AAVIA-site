@@ -2,15 +2,18 @@
 const header = document.querySelector(".header");
 const topBar = document.querySelector(".top-menu");
 
-document.addEventListener("scroll", () => {
-  if (window.scrollY >= 100) {
-    header.classList.add("fixed");
-    topBar.style = "margin-top: -31px";
-  } else if (window.scrollY === 0) {
-    header.classList.remove("fixed");
-    topBar.style = "margin-top: 0";
-  }
-});
+if (window.innerWidth > 570) {
+  document.addEventListener("scroll", () => {
+    if (window.scrollY >= 100) {
+      header.classList.add("fixed");
+      topBar.style = "margin-top: -31px";
+    } else if (window.scrollY === 0) {
+      header.classList.remove("fixed");
+      topBar.style = "margin-top: 0";
+    }
+  });
+}
+
 
 // Menu dropdown
 const linkDrops = document.querySelectorAll('.link-drop');

@@ -1,0 +1,26 @@
+body {
+  background-color: aqua;
+}
+
+h1 {
+  color: #ff7f50;
+}
+
+p {
+  color: #ff7f50;
+}
+
+.caixa {
+  width: 150px;
+  height: 200px;
+  background-color: #12f24a;
+}
+.caixa p {
+  color: #ff7f50;
+}
+
+.outra-caixa {
+  width: 200px;
+  height: 200px;
+  background-color: #ff7f50;
+}/*# sourceMappingURL=style.css.map */

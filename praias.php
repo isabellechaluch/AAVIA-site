@@ -10,11 +10,11 @@
 <body>
     <?php include "_assets/_includes/header.php"; ?>
 
-    <article>
+    <article class="title-excursions-article">
         <div class="background-page background-excursions">
             <div class="container">
-                <div class="title-page">
-                    <h1>Excursões</h1>
+                <div class="page-title">
+                    <strong>Excursões</strong>
                 </div>
             </div>
         </div>
@@ -58,14 +58,14 @@
                     </div>
 
                     <div class="filter-buttons">
-                        <input type="submit" value="Filtrar" class="primary-button">
                         <input type="reset" value="Apagar Filtros" class="secondary-button">
+                        <input type="submit" value="Filtrar" class="primary-button">
                     </div>
                 </form>
 
                 <div class="search-box">
                     <form action="GET" class="form-search">
-                        <input type="text" class="search" placeholder="Digite o produto...">
+                        <input type="text" class="search" placeholder="Digite sua busca...">
                         <div class="search-button-box">
                             <button type="button" class="search-button" id="search-button" aria-label="Procurar">
                                 <img src="_assets/_media/search-icon.png" alt="Procurar">
@@ -79,26 +79,28 @@
 
     <article class="excursions-cards-article">
         <div class="container">
-            <div class="excursion-card">
-                <div class="img-excursion-box">
-                    <img src="_assets/_media/back-excursoes.jpeg" alt="">
-                </div>
+            <a href="excursion-page.php">
+                <div class="excursion-card">
+                    <div class="img-excursion-box">
+                        <img src="_assets/_media/back-excursoes.jpeg" alt="">
+                    </div>
 
-                <div class="text-excursion">
-                    <h2>Title</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus animi ullam quos officia
-                        nemo ad laudantium ducimus hic eius earum, voluptate expedita aperiam, optio nulla?
-                        Aspernatur atque veniam ipsum rerum.</p>
+                    <div class="text-excursion">
+                        <h2>Title</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus animi ullam quos officia
+                            nemo ad laudantium ducimus hic eius earum, voluptate expedita aperiam, optio nulla?
+                            Aspernatur atque veniam ipsum rerum.</p>
 
-                    <div class="info">
-                        <span class="info-duration">
-                            <img src="_assets/_media/duration.png" alt="">
-                            Duration
-                        </span>
-                        <span class="info-price">Preço</span>
+                        <div class="info">
+                            <span class="info-duration">
+                                <img src="_assets/_media/duration.png" alt="">
+                                Duration
+                            </span>
+                            <span class="info-price">Preço</span>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </a>
 
             <div class="excursion-card">
                 <div class="img-excursion-box">

@@ -1,0 +1,79 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box {
+    padding: 1rem;
+    border: 2px solid darkslategray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dog {
+    /* transform: translateY(50px); */
+    /* transform: translateX(50px); */
+    /* transform: translate(X, Y); */
+    /* transform: scaleX(2); */
+    /* transform: scaleY(2); */
+    /* transform: scale(2); */
+    /* transform: rotate(45deg); */
+    /* transform: rotate(0.5turn); */
+    /* transform: skew(25deg); */
+    /* transform: skew(-25deg); */
+    /* transform: translateY(50px) skew(25deg); */
+}
+.box-1 {
+    width: 150px;
+    height: 150px;
+    background-color: darkcyan;
+    /* Escolher qual a propriedade que vai passar pela transição */
+    transition-property: background-color, border-radius;
+    transition-duration: 2s;
+    /* transition-delay: 1s; */
+    /* Suaviza o início da animação */
+    /* transition-timing-function: ease-in; */
+    /* Suaviza o final da animação */
+    /* transition-timing-function: ease-out; */
+    /* Personaliza o tempo de cada uma */
+    transition-timing-function: cubic-bezier(.15, .89, .85, .26);
+}
+.box-1:hover {
+    background-color: coral;
+    border-radius: 50%;
+}
+.seta {
+    animation: jump 1s ease alternate infinite;
+}
+.box-2 {
+    animation: gradient 10s ease alternate infinite;
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(-45deg, darkcyan, rgb(88, 158, 186), coral);
+    background-size: 300% 300%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+h1 {
+    width: 100%;
+}
+@keyframes gradient {
+    0% {
+        /* 0 - Eixo x | 50% - eixo y */
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+@keyframes jump {
+    to {
+        transform: translateY(10px);
+    }
+}

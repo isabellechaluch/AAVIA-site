@@ -1,0 +1,66 @@
+HTML
+
+<div class="button-external day-background" id="change-button" aria-label="Modo escuro">
+	<div class="ball day-ball" id="ball"></div>
+</div>
+
+CSS
+
+:root {
+  --text-color: #333;
+  --background: #fff;
+}
+
+/* Temas */
+.dark-body {
+  background-color: #222;
+}
+
+/*Botao*/
+
+.button-external {
+  width: 27px;
+  height: 17px;
+  background-color: #fff;
+  padding: 2.5px;
+  border-radius: 2em;
+}
+
+.ball {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #bfbfbf;
+  transition: transform 0.15s ease-in-out;
+}
+
+.night-button {
+  background-color: #373a4f;
+}
+
+.night-button .ball {
+  background-color: #fff;
+  transform: translateX(75%);
+}
+
+JS
+
+// Mudar tema
+function alternateButton() {
+  changeButton.classList.toggle('day-button');
+  changeButton.classList.toggle('night-button');
+}
+
+function changeTheme () {
+  body.classList.toggle('body');
+  body.classList.toggle('dark-body');
+
+  const isDarkMode = body.classList.contains('dark-body');
+  document.documentElement.style.setProperty('--text-color', isDarkMode ? '#fff' : '#333');
+  document.documentElement.style.setProperty('--background', isDarkMode ? '#222' : '#fff');
+}
+
+changeButton.addEventListener('click', () => {
+  alternateButton();
+  changeTheme();
+});

@@ -1,0 +1,14 @@
+.nav-link:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 100%;
+  height: 3px;
+  background-color: #BACA39;
+}
+
+##Colocar o nav item como##
+position: relative;
+
+##Se a linha passar, mudar o padding do nav-link para margin

@@ -1041,7 +1041,8 @@ footer {
         width: 25rem;
     }
 
-    .reviews-container {
+    .reviews-container, 
+    .filters-form {
        display: flex;
        flex-direction: column;
        align-items: center;

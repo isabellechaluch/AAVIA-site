@@ -95,10 +95,10 @@
                                 <img class="arrow-down" src="_assets/_media/seta.png" alt="">
                             </a>
                             <ul class="submenu">
+                                <li><a href="praias.php" class="submenu-link">Todas</a></li>
                                 <li><a href="praias.php" class="submenu-link">Praias</a></li>
-                                <li><a href="natureza.php" class="submenu-link">Natureza</a></li>
-                                <li><a href="resorts.php" class="submenu-link">Resorts</a></li>
-                                <li><a href="resorts.php" class="submenu-link">Todas</a></li>
+                                <li><a href="praias.php" class="submenu-link">Natureza</a></li>
+                                <li><a href="praias.php" class="submenu-link">Resorts</a></li>
                             </ul>
                         </li>
 
@@ -128,7 +128,8 @@
                     </div>
 
                     <div class="bar-button-box">
-                        <img src="_assets/_media/icons8-menu-squared-50.png" alt="Menu lateral" class="bars-button" id="button-side-menu">
+                        <img src="_assets/_media/icons8-menu-squared-50.png" alt="Menu lateral" class="bars-button"
+                            id="button-side-menu">
                     </div>
                 </div>
             </div>
@@ -154,9 +155,10 @@
                     <img class="arrow-down" src="_assets/_media/seta.png" alt="">
                 </a>
                 <ul class="submenu side-submenu">
+                    <li><a href="praias.php" class="submenu-link">Todas</a></li>
                     <li><a href="praias.php" class="submenu-link">Praias</a></li>
-                    <li><a href="natureza.php" class="submenu-link">Natureza</a></li>
-                    <li><a href="resorts.php" class="submenu-link">Resorts</a></li>
+                    <li><a href="praias.php" class="submenu-link">Natureza</a></li>
+                    <li><a href="praias.php" class="submenu-link">Resorts</a></li>
                 </ul>
             </li>
 

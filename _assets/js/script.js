@@ -14,25 +14,11 @@ if (window.innerWidth > 570) {
   });
 }
 
-
-// Menu dropdown
-const linkDrops = document.querySelectorAll('.link-drop');
-
-linkDrops.forEach(function (clickDrop) {
-    clickDrop.addEventListener('click', function (dropdown) {
-        dropdown.preventDefault(); // Impede o link de redirecionar para #
-        const submenu = this.nextElementSibling; //acessar o próximo elemento irmão do elemento atual 
-        const arrow = this.querySelector('.arrow-down');
-
-        submenu.style.display = (submenu.style.display === 'block') ? 'none' : 'block';
-        arrow.classList.toggle('arrow-up');
-    })
-});
-
 // Sidebar
 let barButton = document.querySelector('.bar-button-box');
 let closeButton = document.querySelector('.button-close');
 let sideMenu = document.querySelector('.side-menu');
+let link = document.querySelector('.link-drop-sidemenu');
 
 function openMenu() {
     sideMenu.style.width = '17rem';
@@ -41,6 +27,20 @@ function openMenu() {
 function closeMenu () {
     sideMenu.style.width = '0px';
 }
+
+// Menu dropdown
+const linkDrops = document.querySelectorAll('.link-drop-sidemenu');
+
+linkDrops.forEach(function (clickDrop) {
+    clickDrop.addEventListener('click', function (dropdown) {
+        dropdown.preventDefault(); // Impede o link de redirecionar para #
+        const submenu = this.nextElementSibling; //acessar o próximo elemento irmão do elemento atual 
+        const arrow = this.querySelector('.arrow-menu');
+
+        submenu.style.display = (submenu.style.display === 'block') ? 'none' : 'block';
+        arrow.classList.toggle('arrow-up');
+    })
+});
 
 barButton.addEventListener('click', openMenu);
 closeButton.addEventListener('click', closeMenu);

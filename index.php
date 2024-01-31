@@ -219,31 +219,46 @@ include('_assets/_includes/head.php');
         <div class="container">
             <h1 class="title-others">Outros serviços</h1>
 
-            <div class="cards-others">
-                <div class="other-card">
-                    <div class="card-image"><img src="_assets/_media/pexels-photo-1838554.jpeg"></div>
-                    <div class="title-card">Hotéis</div>
-                    <div class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non mollitia cumque
-                        dolorum aperiam corporis doloribus quae. Voluptas laudantium quasi deserunt quo aut beatae
-                        aperiam at sit, facilis praesentium harum nisi!</div>
+            <div class="cards-box">
+                <div class="other-card" id="card1">
+                    <div class="card-image">
+                        <img src="_assets/_media/pexels-photo-1838554.jpeg">
+                    </div>
+                    <p class="title-card">Hotéis</p>
+                    <p class="card-text">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non mollitia cumque dolorum aperiam
+                        corporis doloribus quae. Voluptas laudantium quasi deserunt quo aut beatae aperiam at sit,
+                        facilis praesentium harum nisi!
+                    </p>
                     <button class="card-others-button">Saiba mais</button>
                 </div>
-                <div class="other-card middle-card">
-                    <div class="card-image"><img src="_assets/_media/aviao.jpeg"></div>
-                    <div class="title-card">Passagens de avião</div>
-                    <div class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non mollitia cumque
-                        dolorum aperiam corporis doloribus quae. Voluptas laudantium quasi deserunt quo aut beatae
-                        aperiam at sit, facilis praesentium harum nisi!</div>
+
+                <div class="other-card" id="card2">
+                    <div class="card-image">
+                        <img src="_assets/_media/aviao.jpeg">
+                    </div>
+                    <p class="title-card">Passagens de avião</p>
+                    <p class="card-text">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non mollitia cumque dolorum aperiam
+                        corporis doloribus quae. Voluptas laudantium quasi deserunt quo aut beatae aperiam at sit,
+                        facilis praesentium harum nisi!
+                    </p>
                     <button class="card-others-button">Saiba mais</button>
                 </div>
-                <div class="other-card">
-                    <div class="card-image"><img src="_assets/_media/onibus2.jpeg"></div>
-                    <div class="title-card">Passagens de ônibus</div>
-                    <div class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non mollitia cumque
-                        dolorum aperiam corporis doloribus quae. Voluptas laudantium quasi deserunt quo aut beatae
-                        aperiam at sit, facilis praesentium harum nisi!</div>
+
+                <div class="other-card" id="card3">
+                    <div class="card-image">
+                        <img src="_assets/_media/onibus2.jpeg">
+                    </div>
+                    <p class="title-card">Passagens de ônibus</p>
+                    <p class="card-text">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non mollitia cumque dolorum aperiam
+                        corporis doloribus quae. Voluptas laudantium quasi deserunt quo aut beatae aperiam at sit,
+                        facilis praesentium harum nisi!
+                    </p>
                     <button class="card-others-button">Saiba mais</button>
                 </div>
+
             </div>
         </div>
     </article>
@@ -254,4 +269,3 @@ include('_assets/_includes/head.php');
 </body>
 
 </html>
-

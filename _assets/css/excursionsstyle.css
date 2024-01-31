@@ -1,0 +1,256 @@
+/* PÁGINA EXCURSÕES */
+
+.title-excursions-article {
+    padding: 0;
+}
+
+.background-excursions {
+    background-image: url(../_media/back-excursoes.jpeg);
+    background-position: center;
+}
+
+.filters-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filters-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.filters-form h2 {
+    margin: 0 20px;
+}
+
+.filters-form select {
+    font-family: var(--fonte-padrao);
+    font-size: 14px;
+    padding: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.filter-buttons {
+    margin-left: 20px;
+}
+
+.filter-buttons input {
+    font-size: 13px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.search-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-search {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    width: 13rem;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.search-button {
+    width: 30px;
+    height: 30px;
+    background-color: var(--cor-cinza);
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: var(--cor-padrao);
+}
+
+.search-button img {
+    width: 100%;
+}
+
+.excursion-card {
+    padding: 30px;
+    box-shadow: 1px 0px 20px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: flex;
+    cursor: pointer;
+}
+
+.img-excursion-box {
+    width: 40rem;
+    height: 13rem;
+}
+
+.img-excursion-box img {
+    width: 100%;
+}
+
+.text-excursion {
+    height: 13rem;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-duration {
+    display: flex;
+    align-items: center;
+}
+
+.info-duration img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+/* PAGINA DA EXCURSÃO */
+
+.excursion-article {
+    border-top: 1px solid #333;
+}
+
+.excursion-box {
+    display: flex;
+}
+
+.images-excursion {
+    display: flex;
+    margin-right: 40px;
+}
+
+.little-images {
+    margin-right: 20px;
+}
+
+.little-images img {
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 10px;
+}
+
+.selected-img img {
+    width: 30rem;
+    height: 30rem;
+}
+
+.info-excursion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info-excursion h2 {
+    margin-bottom: 20px;
+}
+
+.price-time-excursion {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-excursion {
+    color: var(--cor-secundaria);
+}
+
+.check-available {
+    width: 15rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.includes-route-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.route-excursion, 
+.includes-excursion {
+    width: 50%;
+}
+
+/* Footer */
+
+footer {
+    padding-top: 60px;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer-box {
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr 3fr;
+    grid-template-rows: 1fr;
+    padding-bottom: 40px;
+}
+
+.logo-footer, 
+.menu-footer, 
+.social-media-box, 
+.contacts-footer {
+    padding: 0 15px;
+}
+
+.logo-footer img {
+    width: 115px;
+}
+
+.title-footer {
+    font-size: var(--size-subtitulos);
+    text-transform: uppercase;
+}
+
+.navlist-footer {
+    list-style: none;
+}
+
+.nav-item {
+    padding: 10px 0;
+}
+
+.nav-link {
+    color: var(--preto);
+    text-transform: uppercase;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.contact-footer {
+    padding: 5px 0;
+}
+
+.social-media-icon {
+    width: 30px;
+    margin-top: 10px;
+}
+
+.dev-footer {
+    background-color: var(--cor-secundaria);
+    padding: 30px 0;
+}
+
+.dev-text {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}

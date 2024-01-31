@@ -8,6 +8,10 @@
     <link rel="shortcut icon" href="img/logo_100.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
+    <link rel="stylesheet" type="text/css" href="_assets/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="_assets/css/indexstyle.css"/>
+    <link rel="stylesheet" type="text/css" href="_assets/css/aboutstyle.css"/>
+    <link rel="stylesheet" type="text/css" href="_assets/css/excursionsstyle.css"/>
     <link rel="stylesheet" type="text/css" href="_assets/css/style.css"/>
     <title>AAVIA Excursões</title>
 </head>

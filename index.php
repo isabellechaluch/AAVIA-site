@@ -9,14 +9,15 @@ include('_assets/_includes/head.php');
     <article class="call-article">
         <div class="container call-container">
             <div class="call">
-                <div class="title-call">
-                    <h1>Transforme seus sonhos em destinos</h1>
+                <h1 class="title-call">Transforme seus sonhos em destinos</h1>
 
-                    <h2>Explore o mundo com a AAVIA</h2>
+                <p class="subtitle-call">Explore o mundo com a Tour Flare</p>
 
-                    <div class="call-button">
-                        <a href="cadastro.php" class="call-link">Cadastre-se agora!</a>
-                    </div>
+                <div class="call-form">
+                    <form action="">
+                        <input type="text" class="input-form call-input" placeholder="Para onde você quer ir?">
+                        <button type="submit" class="call-search-button"><i class="fa fa-search"></i></button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -24,8 +25,8 @@ include('_assets/_includes/head.php');
 
     <article>
         <div class="container">
-            <div class="box-column box-intro">
-                <h2 class="title-intro">Bem vindo(a) à AAVIA !</h2>
+            <section class="box-column intro-section">
+                <h2 class="title-intro">Bem vindo(a) à Tour Flare!</h2>
 
                 <div class="text-intro">
                     <p>
@@ -44,41 +45,13 @@ include('_assets/_includes/head.php');
                     </p>
                 </div>
 
-            </div>
-        </div>
-    </article>
-
-    <article class="travels">
-        <div class="container">
-            <div class="travels-box">
-                <h1 class="title-travels">Nossas excursões</h1>
-
-                <div class="box-inline-centered card-travels-box">
-
-                    <div class="travel-card travel-first-card">
-                        <a href="natureza.php">
-                            <h4 class="travel-title-card">Natureza</h4>
-                        </a>
-                    </div>
-
-                    <div class="travel-card travel-middle-card">
-                        <a href="resorts.php">
-                            <h4 class="travel-title-card">Resorts</h4>
-                        </a>
-                    </div>
-                    <div class="travel-card travel-last-card">
-                        <a href="praias.php">
-                            <h4 class="travel-title-card">Praias</h4>
-                        </a>
-                    </div>
-                </div>
-            </div>
+            </section>
         </div>
     </article>
 
     <article class="icons-services-article">
         <div class="container">
-            <div class="box-inline box-services">
+            <section class="box-inline services-section">
                 <div class="icon-service">
                     <img src="_assets/_media/icons8-bússola-50.png" alt="Bússola">
 
@@ -108,158 +81,139 @@ include('_assets/_includes/head.php');
                         explorar destinos incríveis em qualquer época do ano! Fale conosco agora para viajar quando e
                         onde quiser!</p>
                 </div>
-            </div>
+            </section>
+        </div>
+    </article>
+
+    <!-- Tornar os cards arrastáveis -->
+    <article class="travels">
+        <div class="container">
+            <section class="travels-section">
+                <h1 class="title-travels">Nossas excursões por categoria</h1>
+
+                <div class="box-inline-centered card-travels-box">
+
+                    <div class="travel-card nature-card">
+                        <a href="natureza.php">
+                            <h4 class="travel-title-card">Natureza</h4>
+                        </a>
+                    </div>
+
+                    <div class="travel-card resort-card">
+                        <a href="resorts.php">
+                            <h4 class="travel-title-card">Resorts</h4>
+                        </a>
+                    </div>
+                    <div class="travel-card beach-card">
+                        <a href="praias.php">
+                            <h4 class="travel-title-card">Praias</h4>
+                        </a>
+                    </div>
+
+                    <div class="travel-card city-card">
+                        <a href="cidades.php">
+                            <h4 class="travel-title-card">Cidades</h4>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </article>
+
+    <article class="popular-tours">
+        <div class="container">
+            <section class="popular-tours-section">
+
+                <h2 class="popular-tours-title">Viagens Populares</h2>
+
+                <div class="popular-cards box-inline">
+                    <div class="tour-card">
+                        <img src="destino1.jpg" alt="Destino 1">
+                        <h3>Montanha</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni dignissimos et hic, neque
+                            cumque reprehenderit nulla fuga, impedit ut commodi eligendi quas eum ad, cupiditate
+                            debitis. Error fuga architecto expedita.</p>
+                        <a href="#">Saiba Mais</a>
+                    </div>
+
+                    <div class="tour-card">
+                        <img src="destino2.jpg" alt="Destino 2">
+                        <h3>Destino 2</h3>
+                        <p>Descubra as belezas naturais e culturais deste local único.</p>
+                        <a href="#">Saiba Mais</a>
+                    </div>
+                </div>
+            </section>
         </div>
     </article>
 
     <article class="review-article">
         <div class="container">
-            <div class="title-reviews">
-                <h1>Veja as avaliações dos nossos clientes!</h1>
-            </div>
-
-            <div class="reviews-container">
-                <div class="box-column review-box">
-                    <img src="_assets/_media/pexels-spencer-selover-428328.jpg" alt="Foto usuário">
-
-                    <h3>Carlos Eduardo</h3>
-
-                    <p class="review-classification">⭐⭐⭐⭐⭐</p>
-
-                    <p>"Minha experiência com as excursões deste site foi simplesmente incrível! Os preços
-                        acessíveis
-                        tornaram possível explorar destinos maravilhosos sem esvaziar minha carteira. Além disso, a
-                        variedade de opções durante o ano todo me deu a flexibilidade de viajar quando quisesse. Mal
-                        posso esperar pela próxima aventura!"</p>
+            <section class="reviews-section">
+                <div class="title-reviews">
+                    <h1>Veja as avaliações dos nossos clientes!</h1>
                 </div>
 
-                <div class="box-column review-box">
-                    <img src="_assets/_media/pexels-kamunya-18153185.jpg" alt="Foto usuário">
+                <div class="reviews-container box-row">
+                    <div class="box-column review-box">
+                        <img src="_assets/_media/pexels-spencer-selover-428328.jpg" alt="Foto usuário">
 
-                    <h3>Amanda Ferreira</h3>
+                        <h3>Carlos Eduardo</h3>
 
-                    <p class="review-classification">⭐⭐⭐⭐⭐</p>
+                        <p class="review-classification">⭐⭐⭐⭐⭐</p>
 
-                    <p>"Eu não poderia estar mais satisfeita com as excursões oferecidas por este site. Os preços
-                        acessíveis tornaram o sonho de viajar realidade, e a disponibilidade o ano todo garantiu que
-                        eu
-                        pudesse escolher o momento perfeito para minha viagem. Recomendo a todos que buscam
-                        aventuras
-                        memoráveis!"</p>
-                </div>
-
-                <div class="box-column review-box">
-                    <img src="_assets/_media/pexels-mwabonje-ringa-1820559.jpg" alt="Foto usuário">
-
-                    <h3>Luiza Medeiros</h3>
-
-                    <p>⭐⭐⭐⭐⭐</p>
-
-                    <p>"Estou encantada com as excursões oferecidas por este site. Os preços acessíveis me
-                        permitiram
-                        realizar viagens que nunca pensei serem possíveis. E a possibilidade de viajar durante o ano
-                        todo torna essa plataforma simplesmente perfeita para qualquer amante de viagens. Mal posso
-                        esperar para a próxima aventura!" </p>
-                </div>
-
-                <div class="box-column review-box">
-                    <img src="_assets/_media/pexels-atanasio-andrew-18173196.jpg" alt="Foto usuário">
-
-                    <h3>Samanta Souza</h3>
-
-                    <p>⭐⭐⭐⭐⭐</p>
-
-                    <p>"Esta plataforma de excursões é simplesmente incrível! Os preços são extremamente acessíveis,
-                        permitindo que eu explore o mundo sem preocupações financeiras. Além disso, a
-                        disponibilidade
-                        durante todo o ano tornou possível planejar viagens com total flexibilidade. Não posso
-                        esperar
-                        para continuar explorando novos destinos com eles!" </p>
-                </div>
-            </div>
-        </div>
-    </article>
-
-    <!-- Ligar essa parte ao banco de dados -->
-    <!-- Colocar opção de slideshow -->
-    <article class="pictures-article">
-        <div class="container">
-            <div class="pictures-index">
-                <div class="picture-box">
-                    <img src="img/pexels-krivec-ales-547116.jpg" alt="Foto viagem">
-                </div>
-
-                <div class="picture-box">
-                    <img src="img/imagem_praia.jpeg" alt="Foto viagem">
-                </div>
-
-                <div class="picture-box">
-                    <img src="img/pexels-clem-onojeghuo-211047.jpg" alt="Foto viagem">
-                </div>
-
-                <div class="picture-box">
-                    <img src="img/pexels-tirachard-kumtanom-450062.jpg" alt="Foto viagem">
-                </div>
-            </div>
-
-            <!-- Pegar fotos do banco de dados -->
-
-            <div class="buttons-pictures cards-navigation">
-                <img src="img/arrow-left-icon.png" alt="Item anterior">
-                <!-- Colocar menu com flechas para passar os cards -->
-
-                <h2>Navegue pela nossa galeria de fotos</h2>
-
-                <img src="img/arrow-right-icon.png" alt="Próximo item">
-            </div>
-        </div>
-    </article>
-
-    <article class="others">
-        <div class="container">
-            <h1 class="title-others">Outros serviços</h1>
-
-            <div class="cards-box">
-                <div class="other-card" id="card1">
-                    <div class="card-image">
-                        <img src="_assets/_media/pexels-photo-1838554.jpeg">
+                        <p>"Minha experiência com as excursões deste site foi simplesmente incrível! Os preços
+                            acessíveis
+                            tornaram possível explorar destinos maravilhosos sem esvaziar minha carteira. Além disso, a
+                            variedade de opções durante o ano todo me deu a flexibilidade de viajar quando quisesse. Mal
+                            posso esperar pela próxima aventura!"</p>
                     </div>
-                    <p class="title-card">Hotéis</p>
-                    <p class="card-text">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non mollitia cumque dolorum aperiam
-                        corporis doloribus quae. Voluptas laudantium quasi deserunt quo aut beatae aperiam at sit,
-                        facilis praesentium harum nisi!
-                    </p>
-                    <button class="card-others-button">Saiba mais</button>
-                </div>
 
-                <div class="other-card" id="card2">
-                    <div class="card-image">
-                        <img src="_assets/_media/aviao.jpeg">
+                    <div class="box-column review-box">
+                        <img src="_assets/_media/pexels-kamunya-18153185.jpg" alt="Foto usuário">
+
+                        <h3>Amanda Ferreira</h3>
+
+                        <p class="review-classification">⭐⭐⭐⭐⭐</p>
+
+                        <p>"Eu não poderia estar mais satisfeita com as excursões oferecidas por este site. Os preços
+                            acessíveis tornaram o sonho de viajar realidade, e a disponibilidade o ano todo garantiu que
+                            eu
+                            pudesse escolher o momento perfeito para minha viagem. Recomendo a todos que buscam
+                            aventuras
+                            memoráveis!"</p>
                     </div>
-                    <p class="title-card">Passagens de avião</p>
-                    <p class="card-text">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non mollitia cumque dolorum aperiam
-                        corporis doloribus quae. Voluptas laudantium quasi deserunt quo aut beatae aperiam at sit,
-                        facilis praesentium harum nisi!
-                    </p>
-                    <button class="card-others-button">Saiba mais</button>
-                </div>
 
-                <div class="other-card" id="card3">
-                    <div class="card-image">
-                        <img src="_assets/_media/onibus2.jpeg">
+                    <div class="box-column review-box">
+                        <img src="_assets/_media/pexels-mwabonje-ringa-1820559.jpg" alt="Foto usuário">
+
+                        <h3>Luiza Medeiros</h3>
+
+                        <p>⭐⭐⭐⭐⭐</p>
+
+                        <p>"Estou encantada com as excursões oferecidas por este site. Os preços acessíveis me
+                            permitiram
+                            realizar viagens que nunca pensei serem possíveis. E a possibilidade de viajar durante o ano
+                            todo torna essa plataforma simplesmente perfeita para qualquer amante de viagens. Mal posso
+                            esperar para a próxima aventura!" </p>
                     </div>
-                    <p class="title-card">Passagens de ônibus</p>
-                    <p class="card-text">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non mollitia cumque dolorum aperiam
-                        corporis doloribus quae. Voluptas laudantium quasi deserunt quo aut beatae aperiam at sit,
-                        facilis praesentium harum nisi!
-                    </p>
-                    <button class="card-others-button">Saiba mais</button>
-                </div>
 
-            </div>
+                    <div class="box-column review-box">
+                        <img src="_assets/_media/pexels-atanasio-andrew-18173196.jpg" alt="Foto usuário">
+
+                        <h3>Samanta Souza</h3>
+
+                        <p>⭐⭐⭐⭐⭐</p>
+
+                        <p>"Esta plataforma de excursões é simplesmente incrível! Os preços são extremamente acessíveis,
+                            permitindo que eu explore o mundo sem preocupações financeiras. Além disso, a
+                            disponibilidade
+                            durante todo o ano tornou possível planejar viagens com total flexibilidade. Não posso
+                            esperar
+                            para continuar explorando novos destinos com eles!" </p>
+                    </div>
+                </div>
+            </section>
         </div>
     </article>
 

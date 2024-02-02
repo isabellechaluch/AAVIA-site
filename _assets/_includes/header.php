@@ -69,15 +69,15 @@
     <div class="header">
         <div class="container">
             <div class="header-box">
-                <div class="logo">
-                    <a href="index.php">
-                        <img src="_assets/_media/logo.png" width="70px" height="80px" alt="AAVIA">
+                <div class="logo-box box-inline-centered">
+                    <a href="index.php" class="logo-link">
+                        <img src="_assets/_media/logo.png" class="logo img" width="200px" height="33px" alt="AAVIA">
                         <!-- Colocar efeito de animação -->
                     </a>
                 </div>
 
                 <nav class="box-inline-centered nav">
-                    <ul class="navlist">
+                    <ul class="navlist box-row">
                         <li>
                             <a href="index.php" class="nav-link nav-active">Home</a>
                         </li>
@@ -96,21 +96,10 @@
                                 <li><a href="praias.php" class="submenu-link">Praias</a></li>
                                 <li><a href="praias.php" class="submenu-link">Natureza</a></li>
                                 <li><a href="praias.php" class="submenu-link">Resorts</a></li>
+                                <li><a href="praias.php" class="submenu-link">Cidades</a></li>
                             </ul>
                         </li>
-
-                        <li>
-                            <a href="#" class="nav-link link-drop">
-                                Outros serviços
-                                <img class="arrow-menu" src="_assets/_media/seta.png" alt="">
-                            </a>
-                            <ul class="submenu">
-                                <li><a href="hoteis.php" class="submenu-link">Hotéis</a></li>
-                                <li><a href="passagens-aviao.php" class="submenu-link">Passagens de avião</a></li>
-                                <li><a href="passagens.php" class="submenu-link">Passagens de ônibus</a></li>
-                            </ul>
-                        </li>
-
+                        
                         <li>
                             <a href="contato.php" class="nav-link">Contato</a>
                         </li>
@@ -135,7 +124,9 @@
 
     <div class="side-menu">
         <div class="button-close">
-            <img src="_assets/_media/icons8-x-24.png" alt="Fechar menu">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                <path d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z"></path>
+            </svg>
         </div>
         <ul class="navlist-side">
             <li>
@@ -156,6 +147,7 @@
                     <li><a href="praias.php" class="submenu-link">Praias</a></li>
                     <li><a href="praias.php" class="submenu-link">Natureza</a></li>
                     <li><a href="praias.php" class="submenu-link">Resorts</a></li>
+                    <li><a href="praias.php" class="submenu-link">Cidades</a></li>
                 </ul>
             </li>
 

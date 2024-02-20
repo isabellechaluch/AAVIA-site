@@ -43,6 +43,7 @@ p {
 
 .img {
     width: 100%;
+    height: 100%;
 }
 
 h1 {
@@ -333,6 +334,61 @@ article {
     align-items: center;
 }
 
+/* Footer */
+
+footer {
+    padding-top: 60px;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer-box {
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr 3fr;
+    grid-template-rows: 1fr;
+    padding-bottom: 40px;
+}
+
+.logo-footer, 
+.menu-footer, 
+.social-media-box, 
+.contacts-footer {
+    padding: 0 15px;
+}
+
+.title-footer {
+    font-size: var(--size-subtitulos);
+}
+
+.navlist-footer {
+    list-style: none;
+}
+
+.nav-item {
+    padding: 10px 0;
+}
+
+.nav-link {
+    color: var(--preto);
+    text-transform: uppercase;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.contact-footer {
+    padding: 5px 0;
+}
+
+.dev-footer {
+    background-color: var(--cor-secundaria);
+    padding: 30px 0;
+}
+
+.dev-text {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
 /* Responsive */
 
 @media screen and (max-width: 1400px) {
@@ -356,14 +412,9 @@ article {
         font-size: 30px;
     }
 
-    .call-input {
-        width: 90%;
+    .reviews-container {
+        grid-template-columns: 2fr 2fr;
     }
-
-    .call-search-button {
-        width: 10%;
-    }
-
 }
 
 @media screen and (max-width: 990px) {
@@ -417,7 +468,7 @@ article {
     .reviews-container {
         grid-template-columns: 1fr !important;
         grid-template-rows: 1fr 1fr 1fr 1fr !important;
-        gap: 10px;
+        gap: 20px;
     }
 
     footer {
@@ -435,7 +486,7 @@ article {
     .menu-footer,
     .contacts-footer,
     .social-media-box {
-        padding: 20px 0;
+        padding-top: 10px;
     }
 
     .background-about {
@@ -456,12 +507,12 @@ article {
         display: none;
     }
 
-    .intro-img-box {
-        width: 60% !important;
+    .call-input {
+        width: 70%;
     }
 
-    .card-travels-box {
-        overflow-x: scroll;
+    .intro-img-box {
+        width: 60% !important;
     }
 
     .reviews {
@@ -510,6 +561,7 @@ article {
 
     .review-box {
         width: 80%;
+        margin: 0 auto;
     }
 
     .about-title h1 {

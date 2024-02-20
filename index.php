@@ -53,7 +53,7 @@ include('_assets/_includes/head.php');
         <div class="container">
             <section class="box-inline services-section">
                 <div class="icon-service">
-                    <img src="_assets/_media/icons8-bússola-50.png" alt="Bússola">
+                    <img src="_assets/_media/icons/icons8-bússola-50.png" alt="Bússola">
 
                     <h2 class="title-services">Excursões</h2>
 
@@ -63,7 +63,7 @@ include('_assets/_includes/head.php');
                 </div>
 
                 <div class="icon-service">
-                    <img src="_assets/_media/icons8-money-bill-64.png" alt="Nota de dinheiro">
+                    <img src="_assets/_media/icons/icons8-money-bill-64.png" alt="Nota de dinheiro">
 
                     <h2 class="title-services">Preços acessíveis</h2>
 
@@ -73,7 +73,7 @@ include('_assets/_includes/head.php');
                 </div>
 
                 <div class="icon-service">
-                    <img src="_assets/_media/icons8-travel-64.png" alt="Nota de dinheiro">
+                    <img src="_assets/_media/icons/icons8-travel-64.png" alt="Nota de dinheiro">
 
                     <h2 class="title-services">Viagens o ano todo</h2>
 
@@ -89,7 +89,7 @@ include('_assets/_includes/head.php');
     <article class="travels">
         <div class="container">
             <section class="travels-section">
-                <h1 class="title-travels">Nossas excursões por categoria</h1>
+                <h1 class="title-travels">Nossas excursões</h1>
 
                 <div class="box-inline-centered card-travels-box">
 
@@ -104,43 +104,17 @@ include('_assets/_includes/head.php');
                             <h4 class="travel-title-card">Resorts</h4>
                         </a>
                     </div>
-                    <div class="travel-card beach-card">
-                        <a href="praias.php">
-                            <h4 class="travel-title-card">Praias</h4>
-                        </a>
-                    </div>
 
                     <div class="travel-card city-card">
                         <a href="cidades.php">
                             <h4 class="travel-title-card">Cidades</h4>
                         </a>
                     </div>
-                </div>
-            </section>
-        </div>
-    </article>
 
-    <article class="popular-tours">
-        <div class="container">
-            <section class="popular-tours-section">
-
-                <h2 class="popular-tours-title">Viagens Populares</h2>
-
-                <div class="popular-cards box-inline">
-                    <div class="tour-card">
-                        <img src="destino1.jpg" alt="Destino 1">
-                        <h3>Montanha</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni dignissimos et hic, neque
-                            cumque reprehenderit nulla fuga, impedit ut commodi eligendi quas eum ad, cupiditate
-                            debitis. Error fuga architecto expedita.</p>
-                        <a href="#">Saiba Mais</a>
-                    </div>
-
-                    <div class="tour-card">
-                        <img src="destino2.jpg" alt="Destino 2">
-                        <h3>Destino 2</h3>
-                        <p>Descubra as belezas naturais e culturais deste local único.</p>
-                        <a href="#">Saiba Mais</a>
+                    <div class="travel-card beach-card">
+                        <a href="praias.php">
+                            <h4 class="travel-title-card">Praias</h4>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -154,7 +128,7 @@ include('_assets/_includes/head.php');
                     <h1>Veja as avaliações dos nossos clientes!</h1>
                 </div>
 
-                <div class="reviews-container box-row">
+                <div class="reviews-container">
                     <div class="box-column review-box">
                         <img src="_assets/_media/pexels-spencer-selover-428328.jpg" alt="Foto usuário">
 

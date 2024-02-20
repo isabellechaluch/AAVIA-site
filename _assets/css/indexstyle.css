@@ -37,7 +37,7 @@
 }
 
 .call-input {
-    width: 430px;
+    width: 100%;
     padding: 10px 15px;
     border: none;
     border-radius: 20px 0 0 20px;
@@ -124,6 +124,8 @@
 }
 
 /* TRAVELS */
+
+/* Usar Jquery ou algo do tipo para arrastar os cards */
 .travels {
     background-image: url(../_media/fundo-cards.jpg);
     background-position: top;
@@ -171,15 +173,15 @@
 }
 
 .nature-card {
-    background-image: url(../_media/natureza.jpeg);
+    background-image: url(../_media/natureza.jpg);
 }
 
 .resort-card {
-    background-image: url(../_media/hotel-card.jpeg);
+    background-image: url(../_media/hotel-card.jpg);
 }
 
 .beach-card {
-    background-image: url(../_media/praia-card.jpeg);
+    background-image: url(../_media/praia-card.jpg);
 }
 
 .city-card {
@@ -194,7 +196,7 @@
     color: #fff;
 }
 
-/* MOST POPULAR */
+/* MOST POPULAR
 
 .popular-tours-title {
     text-align: center;
@@ -203,6 +205,27 @@
 .popular-cardbox {
     margin-top: 20px;
 }
+
+.tour-card {
+    max-width: 15rem;
+    box-shadow: 1px 0px 20px 5px rgba(0, 0, 0, 0.101);
+}
+
+.tour-card-img-box {
+    max-height: 10rem;
+}
+
+.tour-card-text {
+    padding: 15px;
+}
+
+.tour-card p {
+    margin-bottom: 10px;
+}
+
+.tour-card h3 {
+    text-align: center;
+} */
 
 
 /* REVIEWS */
@@ -218,13 +241,18 @@
     margin-bottom: 40px;
 }
 
+.reviews-container {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 .review-box {
-    width: 85%;
     background-color: white;
     box-shadow:  2px 2px 4px rgba(0, 0, 0, 0.5);
-    padding: var(--padding-medium);
+    padding: var(--padding-boxes);
     border-radius: 15px;
-    margin: 10px 0;
+    margin: 10px;
 }
 
 .review-box img {

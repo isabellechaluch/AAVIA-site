@@ -71,8 +71,7 @@
             <div class="header-box">
                 <div class="logo-box box-inline-centered">
                     <a href="index.php" class="logo-link">
-                        <img src="_assets/_media/logo.png" class="logo img" width="200px" height="33px" alt="AAVIA">
-                        <!-- Colocar efeito de animação -->
+                        <img src="_assets/_media/logo.png" class="logo img" width="200px" height="33px" alt="Tour Flare">
                     </a>
                 </div>
 
@@ -114,7 +113,7 @@
                     </div>
 
                     <div class="bar-button-box">
-                        <img src="_assets/_media/icons8-menu-squared-50.png" alt="Menu lateral" class="bars-button"
+                        <img src="_assets/_media/icons/icons8-menu-squared-50.png" width="30px" height="30px" alt="Menu lateral" class="bars-button"
                             id="button-side-menu">
                     </div>
                 </div>
@@ -124,9 +123,7 @@
 
     <div class="side-menu">
         <div class="button-close">
-            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
-                <path d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z"></path>
-            </svg>
+            <img src="_assets/_media/icons/icons8-x-24.png" alt="Fechar menu lateral">
         </div>
         <ul class="navlist-side">
             <li>
@@ -148,18 +145,6 @@
                     <li><a href="praias.php" class="submenu-link">Natureza</a></li>
                     <li><a href="praias.php" class="submenu-link">Resorts</a></li>
                     <li><a href="praias.php" class="submenu-link">Cidades</a></li>
-                </ul>
-            </li>
-
-            <li>
-                <a href="#" class="link-drop-sidemenu">
-                    Outros serviços
-                    <img class="arrow-menu" src="_assets/_media/seta.png" alt="">
-                </a>
-                <ul class="submenu side-submenu">
-                    <li><a href="hoteis.php" class="submenu-link">Hotéis</a></li>
-                    <li><a href="passagens-aviao.php" class="submenu-link">Passagens de avião</a></li>
-                    <li><a href="passagens.php" class="submenu-link">Passagens de ônibus</a></li>
                 </ul>
             </li>
 

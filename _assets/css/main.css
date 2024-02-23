@@ -29,6 +29,7 @@
 
 body {
     font-family: var(--fonte-padrao);
+    font-size: 16px;
 }
 
 a {
@@ -90,8 +91,7 @@ article {
 .page-title {
     font-size: var(--size-page-titles);
     color: #fff;
-    padding: 20px;
-    margin-bottom: 40px;
+    text-transform: uppercase;
     text-shadow: 2px 2px 4px #000000e3;
 }
 
@@ -128,6 +128,12 @@ article {
     width: 100%;
     padding: 0px 110px;
     box-sizing: border-box;
+}
+
+@media screen and (min-width: 1900px) {
+    .filters-box {
+        justify-content: space-evenly;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -328,8 +334,9 @@ article {
 
 .background-page {
     width: 100%;
-    height: 400px;
-    background-attachment: fixed;
+    background-image: url(../_media/background-repeat.jpg);
+    background-repeat: repeat;
+    padding: 90px 0;
     display: flex;
     align-items: center;
 }
@@ -486,7 +493,7 @@ footer {
     .menu-footer,
     .contacts-footer,
     .social-media-box {
-        padding-top: 10px;
+        padding: 5px 0;
     }
 
     .background-about {
@@ -495,6 +502,20 @@ footer {
 
     .about-text p {
         text-align: center;
+    }
+
+    .filters-form select {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .excursion-card a {
+        width: 21rem;
+        flex-direction: column;
+    }
+
+    .img-excursion-box {
+        width: 100% !important;
     }
 }
 
@@ -521,10 +542,6 @@ footer {
 
     .cards-others {
         width: 80vw !important;
-    }
-
-    .background-about {
-        height: 195px !important;
     }
 }
 

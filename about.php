@@ -21,13 +21,13 @@
             <div class="about">
                 <div class="about-text-box">
                     <div class="about-title">
-                        <h1>A Jornada de 25 Anos da AAVIA: Uma Empresa de Excursões Inesquecíveis</h1>
+                        <h2>A Jornada de 25 Anos da Tour Flare: Uma Empresa de Excursões Inesquecíveis</h2>
                     </div>
         
                     <div class="about-text">
                         
                         <p>
-                            Há 25 anos, um grupo de amigos aventureiros decidiu transformar sua paixão por viagens e exploração em algo mais do que apenas momentos de lazer. Eles fundaram a "AAVIA", uma empresa de excursões que desde então se tornou sinônimo de aventura, descobertas e memórias inesquecíveis.
+                            Há 25 anos, um grupo de amigos aventureiros decidiu transformar sua paixão por viagens e exploração em algo mais do que apenas momentos de lazer. Eles fundaram a "Tour Flare", uma empresa de excursões que desde então se tornou sinônimo de aventura, descobertas e memórias inesquecíveis.
                         </p>
                         <br>
                         <p>
@@ -35,7 +35,7 @@
                         </p>
                         <br>
                         <p>
-                            Os primeiros anos foram desafiadores, mas a equipe da AAVIA estava determinada a superar qualquer obstáculo. Eles viajaram por estradas empoeiradas, montanhas íngremes e florestas densas para levar seus clientes a lugares incríveis. As excursões eram simples, mas autênticas, repletas de momentos que não se encontravam nos guias de viagem tradicionais.
+                            Os primeiros anos foram desafiadores, mas a equipe da Tour Flare estava determinada a superar qualquer obstáculo. Eles viajaram por estradas empoeiradas, montanhas íngremes e florestas densas para levar seus clientes a lugares incríveis. As excursões eram simples, mas autênticas, repletas de momentos que não se encontravam nos guias de viagem tradicionais.
                         </p>
                         <br>
                         <p>
@@ -43,21 +43,23 @@
                         </p>
                         <br>
                         <p>
-                            Os guias turísticos da empresa desempenharam um papel crucial em tornar cada excursão especial. Eles eram mais do que apenas conhecedores locais; eram historiadores, contadores de histórias e, acima de tudo, entusiastas dedicados à experiência de viagem de cada pessoa. Os guias da AAVIA eram conhecidos por criar momentos mágicos que ficavam na memória dos viajantes.
+                            Os guias turísticos da empresa desempenharam um papel crucial em tornar cada excursão especial. Eles eram mais do que apenas conhecedores locais; eram historiadores, contadores de histórias e, acima de tudo, entusiastas dedicados à experiência de viagem de cada pessoa. Os guias da Tour Flare eram conhecidos por criar momentos mágicos que ficavam na memória dos viajantes.
                         </p>
                         <br>
                         <p> 
-                            À medida que a empresa cresceu, também se comprometeu com a sustentabilidade e a responsabilidade social. Eles se envolveram em projetos de conservação, apoiaram comunidades locais e promoveram práticas de viagem sustentáveis. A AAVIA acreditava que a natureza e a cultura devem ser preservadas para as gerações futuras, e eles trabalharam incansavelmente para fazer a diferença.
+                            À medida que a empresa cresceu, também se comprometeu com a sustentabilidade e a responsabilidade social. Eles se envolveram em projetos de conservação, apoiaram comunidades locais e promoveram práticas de viagem sustentáveis. A Tour Flare acreditava que a natureza e a cultura devem ser preservadas para as gerações futuras, e eles trabalharam incansavelmente para fazer a diferença.
                         </p>
                         <br>
                         <p>
-                            Enquanto a empresa celebra seu 25º aniversário, olha para o futuro com entusiasmo. Novos destinos estão esperando para serem explorados, novas amizades estão prestes a serem feitas e novas histórias estão prontas para serem escritas. A aventura nunca para na AAVIA, e eles mal podem esperar para compartilhar os próximos 25 anos de descobertas e aventuras emocionantes com o mundo.
+                            Enquanto a empresa celebra seu 25º aniversário, olha para o futuro com entusiasmo. Novos destinos estão esperando para serem explorados, novas amizades estão prestes a serem feitas e novas histórias estão prontas para serem escritas. A aventura nunca para na Tour Flare, e eles mal podem esperar para compartilhar os próximos 25 anos de descobertas e aventuras emocionantes com o mundo.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="about-img"></section>
 
     <?php
     include "_assets/_includes/footer.php";

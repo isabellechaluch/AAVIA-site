@@ -88,14 +88,14 @@
                         <li>
                             <a href="#" class="nav-link link-drop">
                                 Excursões
-                                <img class="arrow-menu" src="_assets/_media/seta.png" alt="">
+                                <img class="arrow-menu" src="_assets/_media/icons/seta.png" alt="">
                             </a>
                             <ul class="submenu">
-                                <li><a href="praias.php" class="submenu-link">Todas</a></li>
-                                <li><a href="praias.php" class="submenu-link">Praias</a></li>
-                                <li><a href="praias.php" class="submenu-link">Natureza</a></li>
-                                <li><a href="praias.php" class="submenu-link">Resorts</a></li>
-                                <li><a href="praias.php" class="submenu-link">Cidades</a></li>
+                                <li><a href="excursions.php" class="submenu-link">Todas</a></li>
+                                <li><a href="excursions.php" class="submenu-link">Praias</a></li>
+                                <li><a href="excursions.php" class="submenu-link">Natureza</a></li>
+                                <li><a href="excursions.php" class="submenu-link">Resorts</a></li>
+                                <li><a href="excursions.php" class="submenu-link">Cidades</a></li>
                             </ul>
                         </li>
                         
@@ -140,11 +140,11 @@
                     <img class="arrow-menu" src="_assets/_media/seta.png" alt="">
                 </a>
                 <ul class="submenu side-submenu">
-                    <li><a href="praias.php" class="submenu-link">Todas</a></li>
-                    <li><a href="praias.php" class="submenu-link">Praias</a></li>
-                    <li><a href="praias.php" class="submenu-link">Natureza</a></li>
-                    <li><a href="praias.php" class="submenu-link">Resorts</a></li>
-                    <li><a href="praias.php" class="submenu-link">Cidades</a></li>
+                    <li><a href="excursions.php" class="submenu-link">Todas</a></li>
+                    <li><a href="excursions.php" class="submenu-link">Praias</a></li>
+                    <li><a href="excursions.php" class="submenu-link">Natureza</a></li>
+                    <li><a href="excursions.php" class="submenu-link">Resorts</a></li>
+                    <li><a href="excursions.php" class="submenu-link">Cidades</a></li>
                 </ul>
             </li>
 

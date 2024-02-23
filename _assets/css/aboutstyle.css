@@ -1,8 +1,3 @@
-.background-about {
-    background-image: url(../_media/back-about.jpeg);
-    background-position: center;
-}
-
 .about {
     display: flex;
     flex-direction: row;
@@ -15,7 +10,7 @@
 }
 
 .about-title {
-    color: var(--cor-padrao);
+    color: var(--preto);
     margin-bottom: 20px;
     font-size: var(--size-subtitulos);
     text-align: center;
@@ -26,16 +21,12 @@
     font-size: var(--size-textos);
 }
 
-.about-images {
-    display: flex;
-    flex-direction: column;
-}
-
 .about-img {
-    padding: 7px 10px;
-}
-
-.about-img img {
-    width: 25rem;
-    height: 15rem;
+    background-image: url(../_media/back-about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    width: 100%;
+    height: 600px;
 }

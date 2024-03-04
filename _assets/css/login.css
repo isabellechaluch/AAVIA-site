@@ -1,0 +1,53 @@
+/* LOGIN */
+
+.login-article, 
+.register-article,
+.contact-article {
+    height: 85vh;
+    background-image: url(../_media/background-repeat.jpg);
+    background-repeat: repeat;
+}
+
+.register-article {
+    height: 150vh;
+}
+
+.contact-article {
+    height: fit-content !important;
+}
+
+.form-login {
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+/* Full-width input fields */
+.form-login input{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.form-login input:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+input[type=checkbox] {
+    width: fit-content;
+}
+
+.form-login button {
+    margin-top: 10px;
+}
+
+/* CONTATO */
+textarea {
+    font-family: var(--fonte-padrao);
+    padding: 10px;
+    resize: vertical;
+}
+

@@ -422,6 +422,10 @@ footer {
     .reviews-container {
         grid-template-columns: 2fr 2fr;
     }
+
+    .excursion-box {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 990px) {
@@ -543,6 +547,26 @@ footer {
     .cards-others {
         width: 80vw !important;
     }
+
+    .images-excursion {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        margin-right: 0;
+    }
+
+    .little-images, 
+    .selected-img {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .little-images img {
+        margin-right: 3px;
+    }
+
+    .includes-route-box {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 570px) {
@@ -587,5 +611,9 @@ footer {
 
     .title-page-about {
         font-size: var(--size-responsive-titles);
+    }
+
+    textarea {
+        max-width: 100%;
     }
 }

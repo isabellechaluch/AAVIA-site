@@ -54,7 +54,7 @@
                         <span class="price-excursion">Price</span>
                     </div>
 
-                    <button class="primary-button check-available">Verificar disponibilidade</button>
+                    <button class="button primary-button check-available">Verificar disponibilidade</button>
                     <!-- Abrir uma tela, tipo um pop up com as datas disponíveis e a opção de reservar -->
                 </div>
             </div>

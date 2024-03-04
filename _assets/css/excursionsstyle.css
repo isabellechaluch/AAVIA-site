@@ -127,16 +127,22 @@
 }
 
 .excursion-box {
+    max-width: 1400px;
+    margin: 0 auto;
     display: flex;
 }
 
 .images-excursion {
+    max-width: 40rem;
     display: flex;
+    justify-content: center;
     margin-right: 40px;
 }
 
 .little-images {
     margin-right: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .little-images img {
@@ -146,11 +152,11 @@
 }
 
 .selected-img img {
-    width: 30rem;
-    height: 30rem;
+  width: 100%;
 }
 
 .info-excursion {
+    max-width: 40rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -171,13 +177,14 @@
 }
 
 .check-available {
-    width: 15rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    padding: 10px 15px;
-    margin-left: auto;
-    margin-right: auto;
-    cursor: pointer;
+    margin: 0 auto;
+}
+
+.general-excursion, 
+.includes-route-box, 
+.cancel-excursion {
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .includes-route-box {

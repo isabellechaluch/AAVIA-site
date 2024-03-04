@@ -107,7 +107,7 @@
 
                 <div class="box-inline-centered nav-buttons-box">
                     <div class="login-buttons box-inline-centered">
-                        <a href="cadastro.php" class="box-inline-centered button secondary-button">Cadastre-se</a>
+                        <a href="register.php" class="box-inline-centered button secondary-button">Cadastre-se</a>
 
                         <a href="login.php" class="login-button button primary-button">Login</a>
                     </div>
@@ -153,7 +153,7 @@
             </li>
 
             <li>
-                <a href="cadastro.php" class="nav-link">Cadastre-se</a>
+                <a href="register.php" class="nav-link">Cadastre-se</a>
             </li>
 
             <li>

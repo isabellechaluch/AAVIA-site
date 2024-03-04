@@ -20,13 +20,3 @@
     color: var(--preto);
     font-size: var(--size-textos);
 }
-
-.about-img {
-    background-image: url(../_media/back-about.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: bottom;
-    width: 100%;
-    height: 600px;
-}

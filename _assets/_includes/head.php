@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="_assets/css/aboutstyle.css"/>
     <link rel="stylesheet" type="text/css" href="_assets/css/excursionsstyle.css"/>
     <link rel="stylesheet" type="text/css" href="_assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="_assets/css/login.css"/>
     <link rel="stylesheet" type="text/css" href="_assets/css/main.css"/>
     
     <title>Tour Flare</title>

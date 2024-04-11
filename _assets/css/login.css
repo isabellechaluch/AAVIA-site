@@ -23,7 +23,8 @@
 }
 
 /* Full-width input fields */
-.form-login input{
+.form-login input 
+.pop-up-check__box__form input {
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;

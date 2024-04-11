@@ -7,19 +7,49 @@ include('_assets/_includes/head.php');
     include('_assets/_includes/header.php');
     ?>
     <article class="call-article">
-        <div class="container call-container">
-            <div class="call">
-                <h1 class="title-call">Transforme seus sonhos em destinos</h1>
-
-                <p class="subtitle-call">Explore o mundo com a Tour Flare</p>
-
-                <div class="call-form">
-                    <form action="">
-                        <input type="text" class="input-form call-input" placeholder="Para onde você quer ir?">
-                        <button type="submit" class="call-search-button"><i class="fa fa-search"></i></button>
-                    </form>
-                </div>
+    <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imagens/folhas_g_resized.jpg" class="d-block w-100" alt="folhas verdes">
+              <div class="carousel-caption d-md-block chamada">
+                <h5>Guia de plantas</h5>
+                <p>Guia completo de todas as plantas.</p>
+              </div>
             </div>
+            <div class="carousel-item">
+              <img src="imagens/casamento_g_resized.jpg" class="d-block w-100"
+                alt="maos assinando papel com rosas brancas ao fundo">
+              <div class="carousel-caption d-md-block chamada">
+                <h5>Decorações</h5>
+                <p>Dicas para decoração de casamentos.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="imagens/rosa_g_resized.jpg" class="d-block w-100" alt="rosa vermelha">
+              <div class="carousel-caption d-md-block chamada">
+                <h5>Ideias de flores</h5>
+                <p>Inpirações e ideias de flores.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
     </article>
 
@@ -88,32 +118,32 @@ include('_assets/_includes/head.php');
     <!-- Tornar os cards arrastáveis -->
     <article class="travels">
         <div class="container">
-            <section class="travels-section">
-                <h1 class="title-travels">Nossas excursões</h1>
+            <section class="travels__section">
+                <h1 class="title travels__title">Nossas excursões</h1>
 
-                <div class="box-inline-centered card-travels-box">
+                <div class="box-inline-centered travel__cards-box">
 
-                    <div class="travel-card nature-card">
-                        <a href="natureza.php">
-                            <h4 class="travel-title-card">Natureza</h4>
+                    <div class="travel__card nature-card">
+                        <a href="natureza.php" aria-label="Excursão na Natureza">
+                            <span class="card-label">Natureza</span>
                         </a>
                     </div>
 
-                    <div class="travel-card resort-card">
-                        <a href="resorts.php">
-                            <h4 class="travel-title-card">Resorts</h4>
+                    <div class="travel__card resort-card">
+                        <a href="resorts.php" aria-label="Excursão no Resort">
+                            <span class="card-label">Resort</span>
                         </a>
                     </div>
 
-                    <div class="travel-card city-card">
-                        <a href="cidades.php">
-                            <h4 class="travel-title-card">Cidades</h4>
+                    <div class="travel__card city-card">
+                        <a href="cidades.php" aria-label="Excursão na Cidade">
+                            <span class="card-label">Cidade</span>
                         </a>
                     </div>
 
-                    <div class="travel-card beach-card">
-                        <a href="praias.php">
-                            <h4 class="travel-title-card">Praias</h4>
+                    <div class="travel__card beach-card">
+                        <a href="praias.php" aria-label="Excursão na Praia">
+                            <span class="card-label">Praia</span>
                         </a>
                     </div>
                 </div>

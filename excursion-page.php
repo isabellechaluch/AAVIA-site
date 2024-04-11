@@ -54,12 +54,54 @@
                         <span class="price-excursion">Price</span>
                     </div>
 
-                    <button class="button primary-button check-available">Verificar disponibilidade</button>
+                    <button class="button primary-button excursion-box__button">Verificar
+                        disponibilidade</button>
                     <!-- Abrir uma tela, tipo um pop up com as datas disponíveis e a opção de reservar -->
                 </div>
             </div>
         </div>
     </article>
+
+    <div id="pop-up-check" class="pop-up-check">
+        <div class="pop-up-check__box">
+            <button class="close-button pop-up-check__box__close-button">X</button>
+            <form action="" class="pop-up-check__box__form">
+                <h2>Nome da Excursão</h2>
+
+                <label for="dates">Selecione a data:</label>
+                <select id="dates">
+                    <option value="2024-03-10">10 de Março de 2024</option>
+                    <option value="2024-03-15">15 de Março de 2024</option>
+                    <option value="2024-03-20">20 de Março de 2024</option>
+                    <!-- Adicione mais opções de datas conforme necessário -->
+                </select>
+                <br>
+                <label for="participants">Número de Participantes:</label>
+                <input type="number" id="participants" min="1" max="10">
+                <br><br>
+                <button class="button primary-button">Conferir</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="pop-up-confirm" class="pop-up-confirm">
+        <div class="pop-up-confirm__box">
+            <button class="pop-up-confirm__box__close-button">X</button>
+            <h2 id="excursionName">Nome da Excursão</h2>
+            <label for="dates">Selecione a data:</label>
+            <select id="dates">
+                <option value="2024-03-10">10 de Março de 2024</option>
+                <option value="2024-03-15">15 de Março de 2024</option>
+                <option value="2024-03-20">20 de Março de 2024</option>
+                <!-- Adicione mais opções de datas conforme necessário -->
+            </select>
+            <br>
+            <label for="participants">Número de Participantes:</label>
+            <input type="number" id="participants" min="1" max="10">
+            <br><br>
+            <button class="button primary-button pop-up-confirm__send-button">Enviar</button>
+        </div>
+    </div>
 
     <article class="excursion-article">
         <div class="container">
@@ -68,7 +110,14 @@
 
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad saepe laudantium nam, asperiores
                     voluptatem inventore dignissimos illo iusto vel reiciendis optio. Magni necessitatibus atque
-                    tempora. Doloribus optio neque blanditiis ab! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste adipisci iure praesentium corporis quo, quibusdam minus at ab qui soluta ut cumque sapiente impedit assumenda corrupti consectetur eius veritatis facere. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam pariatur id officia dolor quod illum nobis aspernatur tempore autem adipisci, perferendis explicabo maiores error, incidunt nulla voluptas? Molestiae, sapiente ipsum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis ex in reprehenderit cumque inventore illo dolores temporibus iure ea tempore neque dolore praesentium assumenda, ratione nemo ipsum consectetur explicabo voluptas!</p>
+                    tempora. Doloribus optio neque blanditiis ab! Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Iste adipisci iure praesentium corporis quo, quibusdam minus at ab qui soluta ut cumque
+                    sapiente impedit assumenda corrupti consectetur eius veritatis facere. Lorem ipsum dolor, sit amet
+                    consectetur adipisicing elit. Quisquam pariatur id officia dolor quod illum nobis aspernatur tempore
+                    autem adipisci, perferendis explicabo maiores error, incidunt nulla voluptas? Molestiae, sapiente
+                    ipsum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis ex in reprehenderit
+                    cumque inventore illo dolores temporibus iure ea tempore neque dolore praesentium assumenda, ratione
+                    nemo ipsum consectetur explicabo voluptas!</p>
             </div>
         </div>
     </article>

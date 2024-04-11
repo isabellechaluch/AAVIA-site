@@ -1,22 +1,6 @@
-// Header scroll
-const header = document.querySelector(".header");
-const topBar = document.querySelector(".top-menu");
-
-if (window.innerWidth > 570) {
-  document.addEventListener("scroll", () => {
-    if (window.scrollY >= 100) {
-      header.classList.add("fixed");
-      topBar.style = "margin-top: -31px";
-    } else if (window.scrollY === 0) {
-      header.classList.remove("fixed");
-      topBar.style = "margin-top: 0";
-    }
-  });
-}
-
 // Sidebar
 let barButton = document.querySelector('.bar-button-box');
-let closeButton = document.querySelector('.button-close');
+let closeButton = document.querySelector('.side-menu__close-button');
 let sideMenu = document.querySelector('.side-menu');
 let link = document.querySelector('.link-drop-sidemenu');
 
@@ -91,5 +75,36 @@ function makeCardsDraggable() {
   }
 }
 
+
+// Pop-ups excursion page
+
+function openCheckPopUp() {
+  document.getElementById('pop-up-check').style.display = 'block';
+}
+
+function closeCheckPopUp() {
+  document.getElementById('pop-up-check').style.display = 'none';
+}
+
+function openConfirmPopUp() {
+  document.getElementById('pop-up-confirm').style.display = 'block';
+}
+
+// Função para conferir o agendamento
+function checkAppointment() {
+
+  openConfirmPopUp();
+
+  var selectedDate = document.getElementById('dates').value;
+  var numParticipants = document.getElementById('participants').value;
+  
+  // Aqui você pode adicionar lógica para processar o agendamento
+  console.log('Data selecionada:', selectedDate);
+  console.log('Número de participantes:', numParticipants);
+}
+
 // Chame a função para tornar os cards arrastáveis quando o conteúdo HTML for carregado
 document.addEventListener('DOMContentLoaded', makeCardsDraggable);
+document.querySelector(".excursion-box__button").addEventListener('click', openCheckPopUp);
+document.querySelector(".pop-up-check__box__close-button").addEventListener('click', closeCheckPopUp);
+document.querySelector(".pop-up-confirm__send-button").addEventListener('click', checkAppointment);

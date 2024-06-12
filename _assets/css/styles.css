@@ -1,3 +1,69 @@
+/* INDEX */
+/* call */
+.call-article {
+    height: 60vh;
+    background-image: url(../_media/home-back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* intro */
+.intro-article {
+    background-color: var(--cor-secundaria);
+}
+
+.intro-article__section h2 {
+    width: 70%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 40px;
+    font-weight: 600;
+    position: relative;
+}
+
+.intro-article__section p {
+    color: #fff !important;
+    text-align: center;
+}
+
+/* Features */
+.features-article {
+    background-color: var(--cor-secundaria);
+    padding-top: 0 !important;
+}
+
+.features-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.features-section__iconbox {
+    flex: 0 1 20rem;
+    padding: 30px 20px;
+}
+
+.features-section__iconbox svg {
+    width: 4rem;
+    fill: #fff;
+}
+
+.features-section__iconbox-title {
+    color: #fff;
+    text-align: center;
+    font-size: var(--size-subtitulos);
+    margin-top: 10px;
+}
+
+.features-section__iconbox-text {
+    color: #fff;
+    line-height: 25px;
+    margin-top: 10px;
+    text-align: center;
+}
+
 /* Cards */
 /* Usar Jquery ou algo do tipo para arrastar os cards */
 .travels {
@@ -56,4 +122,38 @@
 
 .city-card {
     background-image: url(../_media/city-card.jpg);
+}
+
+/* Video */
+.video-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.video-section__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 25rem;
+    margin: 5px;
+    gap: 50px;
+}
+
+.video-section__box-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.video-section__box-text p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.video-section__box {
+    max-inline-size: 100%;
+    block-size: auto;
 }

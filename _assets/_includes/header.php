@@ -1,11 +1,11 @@
-<header>
+<header class="header">
     <div class="container">
         <div class="header__box">
             <a href="index.php" class="header__logo-link box-inline-centered">
-                    <img src="_assets/_media/logo.png" width="200px" height="33px" alt="Tour Flare">
+                <img src="_assets/_media/logo.png" width="200px" height="33px" alt="Tour Flare - Página inicial">
             </a>
 
-            <nav class="header__nav box-inline-centered">
+            <nav class="header__nav box-inline-centered" aria-label="Navegação principal">
                 <ul class="header__nav-navlist box-inline-centered">
                     <!-- Adicionar pseudo elemento no link da pagina ativa via JS -->
                     <li>
@@ -17,11 +17,11 @@
                     </li>
 
                     <li>
-                        <a href="#" class="nav-link link-drop">
+                        <a href="#" class="nav-link link-drop" aria-haspopup="true" aria-expanded="false">
                             Excursões
                             <img class="arrow-menu" src="_assets/_media/icons/seta.png" alt="">
                         </a>
-                        <ul class="submenu">
+                        <ul class="submenu" aria-label="Submenu de Excursões" role="menu">
                             <li><a href="excursions.php" class="submenu-link">Todas</a></li>
                             <li><a href="excursions.php" class="submenu-link">Praias</a></li>
                             <li><a href="excursions.php" class="submenu-link">Natureza</a></li>
@@ -44,19 +44,19 @@
                 </div>
 
                 <div class="bar-button-box">
-                    <img src="_assets/_media/icons/icons8-menu-squared-50.png" width="30px" height="30px"
-                        alt="Menu lateral" class="bars-button" id="button-side-menu">
+                    <button aria-label="Abrir menu lateral" class="bars-button" id="button-side-menu">
+                        <img src="_assets/_media/icons/icons8-menu-squared-50.png" width="30px" height="30px" alt="">
+                    </button>
                 </div>
             </div>
         </div>
     </div>
-    </div>
 
-    <div class="side-menu">
+    <div class="side-menu" aria-hidden="true">
         <div class="button-close">
-            <button class="close-button side-menu__close-button">X</button>
+            <button class="close-button side-menu__close-button" aria-label="Fechar menu lateral">X</button>
         </div>
-        <ul class="navlist-side">
+        <ul class="navlist-side" role="menu">
             <li>
                 <a href="index.php" class="nav-link">Home</a>
             </li>
@@ -66,11 +66,11 @@
             </li>
 
             <li>
-                <a href="#" class="link-drop-sidemenu">
+                <a href="#" class="link-drop-sidemenu nav-link" aria-haspopup="true" aria-expanded="false">
                     Excursões
-                    <img class="arrow-menu" src="_assets/_media/seta.png" alt="">
+                    <img class="arrow-menu" src="_assets/_media/icons/seta.png" alt="">
                 </a>
-                <ul class="submenu side-submenu">
+                <ul class="submenu side-submenu" aria-label="Submenu de Excursões" role="menu">
                     <li><a href="excursions.php" class="submenu-link">Todas</a></li>
                     <li><a href="excursions.php" class="submenu-link">Praias</a></li>
                     <li><a href="excursions.php" class="submenu-link">Natureza</a></li>

@@ -55,6 +55,12 @@ article {
     padding: 50px 0;
 }
 
+@media (max-width: 570px) {
+    article {
+        padding: 30px 0;
+    }
+}
+
 .primary-button {
     width: fit-content;
     padding: 10px 15px;
@@ -174,11 +180,11 @@ article {
 }
 
 /* HEADER */
-header {
+.header {
     width: 100%;
     padding: 15px 0;
     box-shadow: 0 4px 8px #11101080;
-    position: relative;
+    position: sticky;
     z-index: 20;
 }
 
@@ -193,10 +199,6 @@ header {
     .header__box {
         grid-template-columns: 1fr 8fr;
     }
-}
-
-.header__logo-img {
-
 }
 
 @media (max-width: 1200px) {
@@ -308,6 +310,11 @@ header {
     background-color: var(--cor-escuro);
 }
 
+.bars-button {
+    border: none;
+    background-color: transparent;
+}
+
 .nav-buttons-box {
     justify-content: end;
 }
@@ -414,189 +421,3 @@ footer {
 
 /* Responsive */
 
-@media (max-width: 1400px) {
-    .filters-box {
-        flex-direction: column;
-    }
-
-    .search-box {
-        margin-top: 20px;
-    }
-}
-
-@media (max-width: 1300px) {
-    .title-call h1 {
-        font-size: 30px;
-    }
-}
-
-@media (max-width: 1200px) {
-    .title-call h1 {
-        font-size: 30px;
-    }
-
-    .reviews-container {
-        grid-template-columns: 2fr 2fr;
-    }
-
-    .excursion-box {
-        flex-direction: column;
-    }
-}
-
-@media (max-width: 990px) {
-    
-
-    .call {
-        margin-top: 50px;
-    }
-
-    .call-article {
-        height: 300px;
-    }
-
-    .intro {
-        flex-direction: column;
-    }
-
-    .intro-text-box {
-        width: 90%;
-        margin-bottom: 40px;
-    }
-
-    .intro-img-box {
-        width: 50%;
-    }
-
-    .icon-service {
-        width: 25rem;
-    }
-
-    .filters-form {
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-    }
-
-    .reviews-container {
-        grid-template-columns: 1fr !important;
-        grid-template-rows: 1fr 1fr 1fr 1fr !important;
-        gap: 20px;
-    }
-
-    footer {
-        padding-top: 40px;
-    }
-
-    .footer-box {
-        padding: 0 40px 40px 40px;
-        display: grid;
-        grid-template-columns: 1fr !important;
-        grid-template-rows: 3fr 4fr 2fr 1fr !important;
-    }
-
-    .logo-footer,
-    .menu-footer,
-    .contacts-footer,
-    .social-media-box {
-        padding: 5px 0;
-    }
-
-    .background-about {
-        height: 300px;
-    }
-
-    .about-text p {
-        text-align: center;
-    }
-
-    .filters-form select {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    .excursion-card a {
-        width: 21rem;
-        flex-direction: column;
-    }
-
-    .img-excursion-box {
-        width: 100% !important;
-    }
-}
-
-@media (max-width: 770px) {
-
-   
-
-    .call-input {
-        width: 70%;
-    }
-
-    .intro-img-box {
-        width: 60% !important;
-    }
-
-    .reviews {
-        flex-wrap: wrap;
-    }
-
-    .cards-others {
-        width: 80vw !important;
-    }
-
-    .images-excursion {
-        flex-wrap: wrap;
-        flex-direction: column-reverse;
-        margin-right: 0;
-    }
-
-    .little-images, 
-    .selected-img {
-        width: 100%;
-        flex-direction: row;
-    }
-
-    .little-images img {
-        margin-right: 3px;
-    }
-
-    .includes-route-box {
-        flex-direction: column;
-    }
-}
-
-@media (max-width: 570px) {
-    article {
-        padding: 30px 0;
-    }
-
-    .title-call {
-        font-size: 25px;
-    }
-
-    .box-services {
-        flex-direction: column;
-    }
-
-    .icon-service {
-        width: 90%;
-    }
-
-    .review-box {
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .about-title h1 {
-        font-size: var(--size-responsive-titles);
-    }
-
-    .title-page-about {
-        font-size: var(--size-responsive-titles);
-    }
-
-    textarea {
-        max-width: 100%;
-    }
-}
